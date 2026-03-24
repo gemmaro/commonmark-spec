@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+require "yaml"
+
+doc = YAML.load_file(File.join(__dir__, "refs.translatable.ja.yaml"))
+refs = {}
+doc.each do |entry|
+  # entry has en, id, ja
+  ja = entry["ja"]
+  refs[ja] and raise "duplicated entry: #{entry.inspect}"
+  refs[ja] = entry["id"]
+end
+puts YAML.dump(refs)
+# puts refs.map{ |ja,id| "[#{ja}]: #{id}" }.join("\n")

@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require "yaml"
+
+doc = YAML.load_file(File.join(__dir__, "refs.yaml"))
+refs = []
+doc.each do |key, value|
+  refs << { "id" => value, "en" => key, "ja" => key }
+end
+puts YAML.dump(refs)

@@ -1,0 +1,10 @@
+* TODO 日本語訳を改善する
+* リンク
+英語にします
+** TODO POファイルで英日を検証
+** TODO 行内リンクの宛先を検証
+** TODO リンク参照定義の宛先を変更
+* TODO neverwrapをはずす
+SCHEDULED: <2026-03-01 Sun>
+* DONE cmarkに切り替える
+CLOSED: [2026-02-23 Mon 11:59]

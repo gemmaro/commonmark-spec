@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+require "gettextpo"
+
+path = File.expand_path(File.join(__FILE__, "../po/ja.po"))
+file = GettextPO::File.read(path)
+iterator = file.message_iterator
+stats = []
+iterator.each do |message|
+  obsolete = message.obsolete?
+  fuzzy = message.fuzzy?
+  untranslated = message.msgstr.empty?
+  stats.push({ obsolete:, fuzzy:, untranslated: })
+end
+stats2 = {}
+stats2.default = 0
+stats.each do |entry|
+  stats2[entry] += 1
+end
+stats2.each do |entry, num|
+  if !entry[:obsolete]&&!entry[:fuzzy]&&!entry[:untranslated]
+    puts "translated: #{num}"
+  elsif !entry[:obsolete]&&entry[:fuzzy]&&!entry[:untranslated]
+    puts "fuzzy: #{num}"
+  elsif entry[:obsolete] # nop
+  else
+    $stderr.puts "others: #{[entry, num].inspect}"
+  end
+end

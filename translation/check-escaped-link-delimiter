@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+
+IGNORED = [
+  "\\!\\\"\\#\\$\\%\\&\\'\\(\\)\\*\\+\\,\\-\\.\\/\\:\\;\\<\\=\\>\\?\\@\\[\\\\\\]\\^\\_\\`\\{\\|\\}\\~\n",
+  "\\[not a link](/foo)\n",
+  "\\[foo]: /url \"not a reference\"\n",
+  "`` \\[\\` ``\n",
+  "<p><code>\\[\\`</code></p>\n",
+  "    \\[\\]\n",
+  "<pre><code>\\[\\]\n",
+  "\\[\\]\n",
+  "\\[block quote\\]\\[block quotes\\], [thematic break](#thematic%20break),\n",
+  "\\[list item\\]\\[list items\\], or [HTML block](#HTML%20block).\n",
+  "as a code block and as indicating that material belongs to a \\[list\n",
+  "item\\]\\[list items\\], the list item interpretation takes precedence:\n",
+  "(or the enclosing \\[block quote\\]\\[block quotes\\] or \\[list item\\]\\[list items\\]):\n",
+  "as \\[raw HTML\\] *inside* the CommonMark paragraph.  (Because\n",
+  "end of the document (or the enclosing \\[block quote\\]\\[block quotes\\]\n",
+  "[link \\[bar](/uri)\n",
+  "[link \\[bar][ref]\n",
+]
+
+$stdin.each_line.with_index do |line, index|
+  line.include?('\]\[') or next
+  IGNORED.member?(line) and next
+  puts line.inspect
+  warn "index: #{index}"
+  exit 1
+end
