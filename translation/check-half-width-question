@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'gettextpo'
+
+file = GettextPO::File.read(File.join(__dir__, 'po/ja.po'))
+file.message_iterator.each do |message|
+  message.msgstr.end_with?(':') or next
+  p message.msgstr.force_encoding(Encoding::UTF_8)
+end

@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+luarocks install --local lcmark
+luarocks install --local lyaml "YAML_LIBDIR=$YAML_LIBDIR"

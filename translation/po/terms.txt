@@ -1,0 +1,145 @@
+allow: 許容する。許す
+attempt: 企図
+author: 執筆者
+asterisk: 星印。アステリスク
+ambiguities: 曖昧さ。曖昧性。
+
+backquote: 抑音符、グレイヴアクセント、アクサングラーブ、グレーブアクセント
+backtick: 逆引用符
+backtracking: 後戻りによる解析
+balanced: 釣り合いが取れている
+best practice: 最良慣行。最善慣行。ベストプラクティス。一番の慣例。最善策
+bullet list: 中黒リスト。箇条書きとするのが普通ですが、箇条書きはより広い概念で順序付きリストを含みそうなイメージがあります。
+bullet: 中黒。行頭文字。https://support.microsoft.com/ja-jp/office/%E6%96%B0%E3%81%97%E3%81%84%E8%A1%8C%E9%A0%AD%E6%96%87%E5%AD%97-%E6%95%B0%E5%AD%97-%E3%81%8A%E3%82%88%E3%81%B3%E8%A4%87%E6%95%B0%E3%83%AC%E3%83%99%E3%83%AB%E3%81%AE%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E5%AE%9A%E7%BE%A9%E3%81%97%E3%81%BE%E3%81%99-6c06ef65-27ad-4893-80c9-0b944cb81f5f
+break: 分割
+
+chunk: かたまり、塊
+characters: 1文字以上の文字。string of charactersのような場合に使います
+class: クラス。ユニコードの文字クラス
+close: 閉止。終止。開いて閉じる
+closer: 閉止物。対義語はopener
+clause: 条項
+code point: 符号位置。https://ja.wikipedia.org/wiki/%E7%AC%A6%E5%8F%B7%E7%82%B9
+combining accent: 結合音符。https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%88%E3%83%BB%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88
+component: 構成要素
+compose: 構成する
+conforming: 準拠、適合
+consist: からなる
+constitute: 構成する
+construct: 構築物。構築要素
+container: 入れ物。容れ物
+containing: 包含
+continuation paragraph: 継続する段落
+count as: として考える。what counts asは何をもって~とする。考慮するはconsider
+consideration: 配慮
+collapse: 縮約。つぶれる、くずれる、ほうかい、かんぼつ、圧縮だとcompressedからに見えそう。省略。短縮だとshortened。縮約
+
+destination: 宛先
+determine: 判定する
+discerned: 見分けられる、識別される
+
+emphasis: 強調
+encoding: 符号化方式。https://ja.wikipedia.org/wiki/%E6%96%87%E5%AD%97%E7%AC%A6%E5%8F%B7%E5%8C%96%E6%96%B9%E5%BC%8F
+entity: 実体
+error: 誤り。エラー
+end of: の終わり
+elegant: 簡潔な
+
+feature: 機能、特徴、要素、仕様、内容、項目、ポイント、構成、特有のもの
+fenced: 有塀。これはあまり膾炙していませんが、塀もつかいたいので。<https://lab.ndl.go.jp/ngramviewer/?keyword=%E5%9B%B2%E5%A3%81%2F%E6%9C%89%E5%A1%80%2F%E5%9B%B2%E7%B9%9E&size=100&from=0&materialtype=full>. 囲壁。塀による。https://lab.ndl.go.jp/ngramviewer/?keyword=%E5%9B%B2%E5%A3%81%2F%E6%9C%89%E5%A1%80&size=100&from=0&materialtype=full, 囲繞だと塀じゃなくてひろくとりかこむ
+find: なのではないかと感じる
+form feed: 紙送り。https://visipri.com/print-glossary/ka/kamiokuri-seigyo.php
+form (v): 形成する
+franking: 脇
+following: 後に続く
+flanking: ~側の。側面とか脇とか。TODO: 右接などとするのもあり。
+final: 末尾。initial and finalは「先頭と末尾」のようにあたまとしっぽを揃えます。
+
+grouping: 結び付き。集合化
+
+hard-wrapped: 固く折り返された
+hard line break: 固い改行。強いだとstrong emphasisとかぶります。
+
+incorporated: 取り込まれる
+indefinite: 際限ない
+inline: 行内。文中とする先行例もあります
+interrupt: 割り込む。中断
+indicator: 標識。指標、示すもの
+initial: 先頭の。始めの。最初の。始めのが捨てがたいですが。最初だとほんとうに一番最初をさすようなかんじがします。
+interleave: 差し挟む。挟まる。とじこむ、さしはさむ
+invalid: 不適正。欠格
+inside: 内側。withinも参照
+illegal: 不正な。不当な。不適格。欠格は少し馴染みがなさそう。
+
+lazyness: 不精
+leaf: 葉。末葉だと別の意味になります
+literal: 文字通りの
+loose: ゆるやか。緩帯だと馴染みがなさすぎます。窮屈と平仄を合わせます。緩やか
+liberal: 自由主義的、自由な
+link title: リンク題。「リンクの題名」だと「link's title」と訳しわけができません。
+
+make up: 形作る。formは形成する
+mandated: 義務付けられる
+matching: 相等しい
+matching: 合致する。対をなす
+material: 構成物
+may: 構わない
+meta-: さらなる
+
+occur: 現れる。出現
+open: 開始
+opener: 開始物
+optionally: 省略可能な。随意に。任意で、もありですが任意の (any) と区別
+
+practice: 慣例
+pass through: 素通りする
+pattern: 類型
+plain text: プレーンテキスト。素のテキストともできますが、定訳にしたがいます。https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AC%E3%83%BC%E3%83%B3%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88
+preceded: 前に付く。前置もあります。prefixedは接頭する
+processing instruction: 処理命令。XMLなど
+procedure: 手続き。「手続きを呼び出す」という意味合いなので「手続き型言語」と揃えるように。
+provided: 供される
+phase: 段階。局面、一側面、位相。時期
+presented: 提示された
+
+rationalize: 合理化する
+raw: 素の
+recipe: 一通りの手順
+remove: 除く
+replace: 置き換える
+require: 要求する。TODO: 「求める」を使ってもよさそう？必要とするとは分けます
+rule: 区切り線。主題区切りと近付けます。罫線
+run (n): 連。連続。ランレングス圧縮は連長圧縮となるように。
+run (v): 実行する
+
+similarly: 同様に。似た話として
+sample: 見本
+section: 断片、仕切られるもの
+separated: 離れた。別れている、も状況に応じて。悪くはないですが。分離される
+sequentially: 逐次に
+span: 区域
+strip: 切り詰める
+strong emphasis: 強い強調。単にstrongとされた場合は強意とします。
+sublist: 副リスト
+suggest: 示唆する
+subsequent: 後続する
+scheme: スキーム。https://developer.mozilla.org/ja/docs/Web/URI/Reference/Schemes
+shortcut: 簡略。collapsedが縮約なのと対比。simplifiedがちらつく
+soft: 柔らかい。固いと対比
+softbreak: 柔らかい分割
+surrounding: 取り巻く
+
+tab stop: タブ位置。タブ幅。タブストップ。https://e-words.jp/w/%E3%82%BF%E3%83%96%E3%82%B9%E3%83%88%E3%83%83%E3%83%97.html, https://en.wikipedia.org/wiki/Tab_stop, https://lab.ndl.go.jp/ngramviewer/?keyword=%E3%82%BF%E3%83%96%E4%BD%8D%E7%BD%AE%2F%E3%82%BF%E3%83%96%E3%82%B9%E3%83%88%E3%83%83%E3%83%97&size=100&from=0&materialtype=full
+thematic break: 主題分割。主題区切り、が定訳のようですが分割と悩みます。区切りはdelimiterにしているので。<https://developer.mozilla.org/ja/docs/Web/HTML/Reference/Elements/hr>
+thus: したがって。thereforeは論理的な帰結をあらわすらしい
+tight: 窮屈
+top: 一番上
+typically: 通例として
+
+unambiguously: 曖昧さなく。構文解析では曖昧さが問題となるため、明確に、の読み替えは避けます
+uniformity: 一律性
+
+valid: 適正な。適格。適正な。正当な。invalidとして不適正、不適格があります。適格の反対は欠格。たとえばユニコードの符号位置である「資格がある」から適格というのはちょっと違和感
+verbatim: 書いたまま
+
+within: 範囲内。insideは内側

@@ -1,3 +1,13 @@
 *~
 *.bak
 spec.html
+/translation/ja/tools/
+/translation/ja/Makefile
+/.tidyall.d/
+/translation/ja/spec.cmark.txt
+/translation/spec.txt
+/translation/links.ja.yaml
+/translation/refs.yaml
+/translation/refs.translatable.yaml
+/translation/refs.translatable.ja.yaml
+/translation/refs.ja.yaml
