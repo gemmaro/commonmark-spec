@@ -1,0 +1,4 @@
+[PerlTidy]
+select = translation/lib/**/*.pm
+select = translation/*.pl
+argv = -log -noll --iterations=2 --cuddled-else
