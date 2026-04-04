@@ -3,7 +3,7 @@ require "yaml"
 
 doc = YAML.load_file(File.join(__dir__, "refs.translatable.ja.yaml"))
 refs = {}
-doc.each do |entry|
+doc&.each do |entry|
   # entry has en, id, ja
   ja = entry["ja"]
   refs[ja] and raise "duplicated entry: #{entry.inspect}"
