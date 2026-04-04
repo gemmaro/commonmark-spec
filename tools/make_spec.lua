@@ -10,7 +10,7 @@ if not jarefs_file then
    io.stderr:write("WARNING: ja refs file not open\n")
    os.exit(1)
 end
-local jarefs = lyaml.load(jarefs_file:read("a"))
+local jarefs = lyaml.load(jarefs_file:read("a")) or {}
 jarefs_file:close()
 
 local trim = function(s)
