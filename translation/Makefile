@@ -8,7 +8,6 @@ all: ${outdir}/spec.txt \
 	${MAKE} --directory ja spec.html
 	ssh pi mkdir -p /srv/www/CommonMark
 	rsync -av ./ja/spec.html pi:/srv/www/CommonMark/spec.html
-	./stat
 .PHONY: all
 
 ja/tools/make_spec.lua: ../tools/make_spec.lua
@@ -29,7 +28,6 @@ translate: credit.md
 	cp ../spec.txt spec.txt
 	lua ../tools/make_spec.lua refblock < ../spec.txt >> spec.txt
 	po4a po4a.cfg
-	./check-escaped-link-delimiter < ja/spec.txt
 .PHONY: translate
 
 po/en.pot:
