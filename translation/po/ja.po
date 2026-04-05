@@ -6,20 +6,20 @@
 #
 # CommonMark spec日本語訳 - Japanese translation of CommonMark spec by
 # Yuya.Nishida <twitter@nishidayuya>, 2014,
-# https://github.com/nishidayuya/CommonMark-ja_JP.
+# <https://github.com/nishidayuya/CommonMark-ja_JP>.
 #
 # CommonMark-ja by Takeshi KOMIYA Takeshi KOMIYA <i.tkomiya@gmail.com>,
-# 2019, 2020, https://github.com/tk0miya/CommonMark-ja.
+# 2019, 2020, <https://github.com/tk0miya/CommonMark-ja>.
 #
 # CommonMark(日本語訳) by Anno Kagurazaka Anno Kagurazaka (AnMint)
 # <h.work.deputy@gmail.com>, 2018,
-# https://github.com/Anmint/CommonMark-ja.  
+# <https://github.com/Anmint/CommonMark-ja>.
 msgid ""
 msgstr ""
 "Project-Id-Version: commonmark-ja\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-21 18:23+0900\n"
-"PO-Revision-Date: 2026-03-24 09:46+0900\n"
+"POT-Creation-Date: 2026-04-05 08:56+0900\n"
+"PO-Revision-Date: 2026-04-05 08:46+0900\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -28,41 +28,71 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#. type: heading3
-#: refs.translatable.yaml:1 spec.txt:9667
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
 #, no-wrap
-msgid "An algorithm for parsing nested emphasis and links"
-msgstr "入れ子の強調とリンクを構文解析するためのアルゴリズム"
+msgid "character"
+msgstr "文字"
 
 #. type: heading2
-#: refs.translatable.yaml:1 spec.txt:284
+#: refs.translatable.yaml:1 spec.txt:3682
 #, no-wrap
-msgid "Characters and lines"
-msgstr "文字と行"
+msgid "Block quotes"
+msgstr "ブロック引用"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "full reference link"
+msgstr "完全参照リンク"
 
 #. type: heading2
-#: refs.translatable.yaml:1 spec.txt:852
+#: refs.translatable.yaml:1 spec.txt:1726
 #, no-wrap
-msgid "Container blocks and leaf blocks"
-msgstr "入れ物ブロックと葉ブロック"
+msgid "Indented code blocks"
+msgstr "字下げコードブロックについて"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "attribute value"
-msgstr "属性値"
+msgid "principle of uniformity"
+msgstr "一律性の原則"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "ASCII punctuation character"
-msgstr "アスキーの約物文字"
+msgid "inline link"
+msgstr "行内リンク"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "line ending"
-msgstr "行末"
+msgid "HTML tag"
+msgstr "HTMLタグ"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "Entity references"
+msgstr "実体参照"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "list"
+msgstr "リスト"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "absolute URI"
+msgstr "絶対URI"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:864
+#, no-wrap
+msgid "Thematic breaks"
+msgstr "主題分割について"
 
 #. type: heading2
 #: refs.translatable.yaml:1 spec.txt:9421
@@ -73,32 +103,424 @@ msgstr "テキストの内容"
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "Autolink"
-msgstr "自動リンク"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
 msgid "HTML block"
 msgstr "HTMLブロック"
 
+#. type: heading1
+#: refs.translatable.yaml:1 spec.txt:5862
+#, no-wrap
+msgid "Inlines"
+msgstr "行内要素"
+
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "Decimal numeric character references"
-msgstr "10進数の数値的な文字参照"
+msgid "can close emphasis"
+msgstr "強調の閉止可能"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "scheme"
+msgstr "スキーム"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "indented chunk"
+msgstr "字下げされた塊"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "can close strong emphasis"
+msgstr "強い強調の閉止可能"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "loose"
+msgstr "ゆるやか"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "paragraph"
+msgstr "段落"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "matches"
+msgstr "合致"
 
 #. type: heading2
-#: refs.translatable.yaml:1 spec.txt:864
+#: refs.translatable.yaml:1 spec.txt:471
 #, no-wrap
-msgid "Thematic breaks"
-msgstr "主題分割について"
+msgid "Insecure characters"
+msgstr "安全でない文字"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:826
+#, no-wrap
+msgid "Precedence"
+msgstr "優先順位"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "link destination"
-msgstr "リンクの宛先"
+msgid "of the same type"
+msgstr "同じ型を持つ"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "ordered list"
+msgstr "順序付きリスト"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "delimiter stack"
+msgstr "区切りスタック"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:852
+#, no-wrap
+msgid "Container blocks and leaf blocks"
+msgstr "入れ物ブロックと葉ブロック"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "single-quoted attribute value"
+msgstr "単一引用符の属性値"
+
+# To stand at the flank or side of; to border upon.
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "right-flanking delimiter run"
+msgstr "右側の区切り連"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "link label"
+msgstr "リンクラベル"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "processing instruction"
+msgstr "処理命令"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:335
+#, no-wrap
+msgid "Tabs"
+msgstr "タブ"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:615
+#, no-wrap
+msgid "Entity and numeric character references"
+msgstr "実体と、数値による文字参照"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "attribute name"
+msgstr "属性名"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:3528
+#, no-wrap
+msgid "Paragraphs"
+msgstr "段落について"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "ASCII punctuation character"
+msgstr "アスキーの約物文字"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "start number"
+msgstr "開始番号"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "Paragraph continuation text"
+msgstr "段落継続テキスト"
+
+#. type: heading1
+#: refs.translatable.yaml:1 spec.txt:3662
+#, no-wrap
+msgid "Container blocks"
+msgstr "入れ物ブロック"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:9636
+#, no-wrap
+msgid "Phase 2: inline structure"
+msgstr "段階2：行内の構造"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:2352
+#, no-wrap
+msgid "HTML blocks"
+msgstr "HTMLブロックについて"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "bullet list marker"
+msgstr "中黒リストの印"
+
+# 文字はつけません
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "Unicode whitespace"
+msgstr "ユニコードの空白"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "setext heading"
+msgstr "setext見出し"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:9236
+#, no-wrap
+msgid "Hard line breaks"
+msgstr "固い改行について"
+
+#. type: heading1
+#: refs.translatable.yaml:1 spec.txt:859
+#, no-wrap
+msgid "Leaf blocks"
+msgstr "葉ブロック"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "attribute value"
+msgstr "属性値"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "list marker"
+msgstr "リストの印"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:8773
+#, no-wrap
+msgid "Autolinks"
+msgstr "自動リンクについて"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:8546
+#, no-wrap
+msgid "Images"
+msgstr "画像"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "end condition"
+msgstr "終了条件"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "space"
+msgstr "空白文字"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "tight"
+msgstr "窮屈"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "inline"
+msgstr "行内"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "double-quoted attribute value"
+msgstr "二重引用符の属性値"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "blank line"
+msgstr "空行"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:8960
+#, no-wrap
+msgid "Raw HTML"
+msgstr "素のHTML"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:4111
+#, no-wrap
+msgid "List items"
+msgstr "リスト項目"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "line"
+msgstr "行"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "hard line break"
+msgstr "固い改行"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "ordered list marker"
+msgstr "順序付きリストの印"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "reference link"
+msgstr "参照リンク"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "link text"
+msgstr "リンクテキスト"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:248
+#, no-wrap
+msgid "About this document"
+msgstr "本文書について"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "left-flanking delimiter run"
+msgstr "左側の区切り連"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "setext heading underline"
+msgstr "setext見出しの下線"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:1926
+#, no-wrap
+msgid "Fenced code blocks"
+msgstr "有塀コードブロックについて"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "blocks"
+msgstr "ブロック"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "code span"
+msgstr "コード区域"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:5230
+#, no-wrap
+msgid "Lists"
+msgstr "リストについて"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "email autolink"
+msgstr "電子メールの自動リンク"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "link title"
+msgstr "リンク題"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:3638
+#, no-wrap
+msgid "Blank lines"
+msgstr "空白行"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "email address"
+msgstr "電子メールアドレス"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:3173
+#, no-wrap
+msgid "Link reference definitions"
+msgstr "リンク参照定義について"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "block quote marker"
+msgstr "ブロック引用の印"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "backtick string"
+msgstr "抑音符の文字列"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "shortcut reference link"
+msgstr "簡略参照リンク"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "can open emphasis"
+msgstr "強調の開始可能"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "HTML comment"
+msgstr "HTMLコメント"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:477
+#, no-wrap
+msgid "Backslash escapes"
+msgstr "バックスラッシュのエスケープ"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "code fence"
+msgstr "コード塀"
 
 # あえて「コード区域」のみにしません
 #. type: heading2
@@ -110,198 +532,8 @@ msgstr "コード区域について"
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "backtick string"
-msgstr "抑音符の文字列"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:471
-#, no-wrap
-msgid "Insecure characters"
-msgstr "安全でない文字"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "URI autolink"
-msgstr "URIの自動リンク"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "fenced code block"
-msgstr "有塀コードブロック"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:1926
-#, no-wrap
-msgid "Fenced code blocks"
-msgstr "有塀コードブロックについて"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "open tag"
-msgstr "開始タグ"
-
-#. type: heading1
-#: refs.translatable.yaml:1 spec.txt:3662
-#, no-wrap
-msgid "Container blocks"
-msgstr "入れ物ブロック"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "setext heading underline"
-msgstr "setext見出しの下線"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:7476
-#, no-wrap
-msgid "Links"
-msgstr "リンク"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "bullet list marker"
-msgstr "中黒リストの印"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:95
-#, no-wrap
-msgid "Why is a spec needed?"
-msgstr "なぜ仕様が必要とされているのか"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "attribute"
-msgstr "属性"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "image description"
-msgstr "画像の説明"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "processing instruction"
-msgstr "処理命令"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "tight"
-msgstr "窮屈"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "Paragraph continuation text"
-msgstr "段落継続テキスト"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "full reference link"
-msgstr "完全参照リンク"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "delimiter stack"
-msgstr "区切りスタック"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "bullet list"
-msgstr "中黒リスト"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "principle of uniformity"
-msgstr "一律性の原則"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "of the same type"
-msgstr "同じ型を持つ"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:826
-#, no-wrap
-msgid "Precedence"
-msgstr "優先順位"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "code span"
-msgstr "コード区域"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "start condition"
-msgstr "開始条件"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:3638
-#, no-wrap
-msgid "Blank lines"
-msgstr "空白行"
-
-# To fall together suddenly, as the sides of a hollow vessel; to close
-# by falling or shrinking together; to have the sides or parts of (a
-# thing) fall in together, or be crushed in together; as, “a flue in
-# the boiler of a steam engine sometimes collapses”.
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "collapsed reference link"
-msgstr "縮約参照リンク"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "ordered list marker"
-msgstr "順序付きリストの印"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "matches"
-msgstr "合致"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "link text"
-msgstr "リンクテキスト"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "tag name"
-msgstr "タグ名"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "thematic break"
-msgstr "主題分割"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "paragraph"
-msgstr "段落"
+msgid "info string"
+msgstr "情報文字列"
 
 # 前置き<
 # denoting an action or event preceding or in preparation for something
@@ -316,280 +548,26 @@ msgstr "下準備"
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "character"
-msgstr "文字"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "tab"
-msgstr "タブ文字"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:3173
-#, no-wrap
-msgid "Link reference definitions"
-msgstr "リンク参照定義について"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "shortcut reference link"
-msgstr "簡略参照リンク"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "closing tag"
-msgstr "閉止タグ"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "indented code block"
-msgstr "字下げコードブロック"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "attribute name"
-msgstr "属性名"
-
-#. type: heading1
-#: refs.translatable.yaml:1 spec.txt:9451
-#, no-wrap
-msgid "Appendix: A parsing strategy"
-msgstr "補遺：構文解析の戦略"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "inline"
-msgstr "行内"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:615
-#, no-wrap
-msgid "Entity and numeric character references"
-msgstr "実体と、数値による文字参照"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "setext heading"
-msgstr "setext見出し"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "can close emphasis"
-msgstr "強調の閉止が可能"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "softbreak"
-msgstr "柔らかい分割"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "email autolink"
-msgstr "電子メールの自動リンク"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "unquoted attribute value"
-msgstr "引用符のない属性値"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "double-quoted attribute value"
-msgstr "二重引用符の属性値"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "email address"
-msgstr "電子メールアドレス"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "can close strong emphasis"
-msgstr "強い強調の閉止が可能"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:3682
-#, no-wrap
-msgid "Block quotes"
-msgstr "ブロック引用"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "link reference definition"
-msgstr "リンク参照定義"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:4111
-#, no-wrap
-msgid "List items"
-msgstr "リスト項目"
-
-# 文字はつけません
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "Unicode whitespace"
-msgstr "ユニコードの空白"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "HTML tag"
-msgstr "HTMLタグ"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:1726
-#, no-wrap
-msgid "Indented code blocks"
-msgstr "字下げコードブロックについて"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "loose"
-msgstr "ゆるやか"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "start number"
-msgstr "開始番号"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:6112
-#, no-wrap
-msgid "Emphasis and strong emphasis"
-msgstr "強調と強い強調"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "link title"
-msgstr "リンク題"
-
-#. type: heading1
-#: refs.translatable.yaml:1 spec.txt:817
-#, no-wrap
-msgid "Blocks and inlines"
-msgstr "ブロックと行内"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "ordered list"
-msgstr "順序付きリスト"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "code fence"
-msgstr "コード塀"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "list"
-msgstr "リスト"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:477
-#, no-wrap
-msgid "Backslash escapes"
-msgstr "バックスラッシュのエスケープ"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "ASCII control character"
-msgstr "アスキーの制御文字"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "Unicode punctuation character"
-msgstr "ユニコードの約物文字"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "space"
-msgstr "空白文字"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:248
-#, no-wrap
-msgid "About this document"
-msgstr "本文書について"
-
-# To stand at the flank or side of; to border upon.
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "right-flanking delimiter run"
-msgstr "右側の区切り連"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:8773
-#, no-wrap
-msgid "Autolinks"
-msgstr "自動リンクについて"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "indented chunk"
-msgstr "字下げされた塊"
-
-#. type: heading3
-#: refs.translatable.yaml:1 spec.txt:5044
-#, no-wrap
-msgid "Motivation"
-msgstr "狙い"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "left-flanking delimiter run"
-msgstr "左側の区切り連"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
 msgid "process emphasis"
 msgstr "強調の処理"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "can open strong emphasis"
-msgstr "強い強調の開始が可能"
+msgid "look for link or image"
+msgstr "リンクないし画像の探索"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "delimiter run"
-msgstr "区切り連"
+msgid "thematic break"
+msgstr "主題分割"
 
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
+#. type: heading3
+#: refs.translatable.yaml:1 spec.txt:9667
 #, no-wrap
-msgid "hard line break"
-msgstr "固い改行"
+msgid "An algorithm for parsing nested emphasis and links"
+msgstr "入れ子の強調とリンクを構文解析するためのアルゴリズム"
 
 # any distinct time period in a sequence of events; "we are in a
 # transitional stage in which many former ideas must be revised or
@@ -600,113 +578,35 @@ msgstr "固い改行"
 msgid "Phase 1: block structure"
 msgstr "段階1：ブロックの構造"
 
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:9456
 #, no-wrap
-msgid "block quote marker"
-msgstr "ブロック引用の印"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "info string"
-msgstr "情報文字列"
+msgid "Overview"
+msgstr "概観"
 
 #. type: heading1
-#: refs.translatable.yaml:1 spec.txt:859
+#: refs.translatable.yaml:1 spec.txt:9451
 #, no-wrap
-msgid "Leaf blocks"
-msgstr "葉ブロック"
+msgid "Appendix: A parsing strategy"
+msgstr "補遺：構文解析の戦略"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "line"
-msgstr "行"
+msgid "open tag"
+msgstr "開始タグ"
 
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:9636
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
 #, no-wrap
-msgid "Phase 2: inline structure"
-msgstr "段階2：行内の構造"
+msgid "softbreak"
+msgstr "柔らかい分割"
 
 #. type: heading2
 #: refs.translatable.yaml:1 spec.txt:9386
 #, no-wrap
 msgid "Soft line breaks"
 msgstr "柔らかい改行"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "lazy continuation line"
-msgstr "不精な継続行"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:2352
-#, no-wrap
-msgid "HTML blocks"
-msgstr "HTMLブロックについて"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:9236
-#, no-wrap
-msgid "Hard line breaks"
-msgstr "固い改行について"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "absolute URI"
-msgstr "絶対URI"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "attribute value specification"
-msgstr "属性値の指定"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:8546
-#, no-wrap
-msgid "Images"
-msgstr "画像"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "CDATA section"
-msgstr "CDATA節"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "link label"
-msgstr "リンクラベル"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "declaration"
-msgstr "宣言"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "scheme"
-msgstr "スキーム"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "inline link"
-msgstr "行内リンク"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "HTML comment"
-msgstr "HTMLコメント"
 
 #. type: heading2
 #: refs.translatable.yaml:1 spec.txt:3
@@ -717,62 +617,38 @@ msgstr "マークダウンとは"
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "look for link or image"
-msgstr "リンクないし画像の探索"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:335
-#, no-wrap
-msgid "Tabs"
-msgstr "タブ"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:5230
-#, no-wrap
-msgid "Lists"
-msgstr "リストについて"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:9456
-#, no-wrap
-msgid "Overview"
-msgstr "概観"
+msgid "link reference definition"
+msgstr "リンク参照定義"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "Entity references"
-msgstr "実体参照"
+msgid "URI autolink"
+msgstr "URIの自動リンク"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "can open emphasis"
-msgstr "強調の開始が可能"
+msgid "Hexadecimal numeric character references"
+msgstr "16進数の数値的な文字参照"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "Unicode whitespace character"
-msgstr "ユニコードの空白文字"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:8960
-#, no-wrap
-msgid "Raw HTML"
-msgstr "素のHTML"
+msgid "Decimal numeric character references"
+msgstr "10進数の数値的な文字参照"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "single-quoted attribute value"
-msgstr "単一引用符の属性値"
+msgid "attribute"
+msgstr "属性"
 
-#. type: heading1
-#: refs.translatable.yaml:1 spec.txt:5862
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
 #, no-wrap
-msgid "Inlines"
-msgstr "行内要素"
+msgid "Unicode punctuation character"
+msgstr "ユニコードの約物文字"
 
 #. type: heading2
 #: refs.translatable.yaml:1 spec.txt:1310
@@ -783,14 +659,140 @@ msgstr "Setext見出し"
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
+msgid "closing tag"
+msgstr "閉止タグ"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "declaration"
+msgstr "宣言"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "line ending"
+msgstr "行末"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "Autolink"
+msgstr "自動リンク"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "unquoted attribute value"
+msgstr "引用符のない属性値"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "image description"
+msgstr "画像の説明"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "indented code block"
+msgstr "字下げコードブロック"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:95
+#, no-wrap
+msgid "Why is a spec needed?"
+msgstr "なぜ仕様が必要とされているのか"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "fenced code block"
+msgstr "有塀コードブロック"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
 msgid "ATX heading"
 msgstr "ATX見出し"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "blank line"
-msgstr "空行"
+msgid "Unicode whitespace character"
+msgstr "ユニコードの空白文字"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "attribute value specification"
+msgstr "属性値の指定"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:6112
+#, no-wrap
+msgid "Emphasis and strong emphasis"
+msgstr "強調と強い強調"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "CDATA section"
+msgstr "CDATA節"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "link destination"
+msgstr "リンク先"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "bullet list"
+msgstr "中黒リスト"
+
+#. type: heading1
+#: refs.translatable.yaml:1 spec.txt:817
+#, no-wrap
+msgid "Blocks and inlines"
+msgstr "ブロックと行内"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:284
+#, no-wrap
+msgid "Characters and lines"
+msgstr "文字と行"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "start condition"
+msgstr "開始条件"
+
+#. type: heading3
+#: refs.translatable.yaml:1 spec.txt:5044
+#, no-wrap
+msgid "Motivation"
+msgstr "狙い"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "delimiter run"
+msgstr "区切り連"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "tag name"
+msgstr "タグ名"
+
+#. type: Hash Value: ja
+#: refs.translatable.yaml:1
+#, no-wrap
+msgid "lazy continuation line"
+msgstr "不精な継続行"
 
 #. type: heading2
 #: refs.translatable.yaml:1 spec.txt:1088
@@ -798,11 +800,21 @@ msgstr "空行"
 msgid "ATX headings"
 msgstr "ATX見出しについて"
 
+# To fall together suddenly, as the sides of a hollow vessel; to close
+# by falling or shrinking together; to have the sides or parts of (a
+# thing) fall in together, or be crushed in together; as, “a flue in
+# the boiler of a steam engine sometimes collapses”.
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "blocks"
-msgstr "ブロック"
+msgid "collapsed reference link"
+msgstr "縮約参照リンク"
+
+#. type: heading2
+#: refs.translatable.yaml:1 spec.txt:7476
+#, no-wrap
+msgid "Links"
+msgstr "リンク"
 
 #. type: heading1
 #: refs.translatable.yaml:1 spec.txt:1
@@ -813,32 +825,20 @@ msgstr "はしがき"
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "reference link"
-msgstr "参照リンク"
+msgid "can open strong emphasis"
+msgstr "強い強調の開始可能"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "list marker"
-msgstr "リストの印"
-
-#. type: heading2
-#: refs.translatable.yaml:1 spec.txt:3528
-#, no-wrap
-msgid "Paragraphs"
-msgstr "段落について"
+msgid "ASCII control character"
+msgstr "アスキーの制御文字"
 
 #. type: Hash Value: ja
 #: refs.translatable.yaml:1
 #, no-wrap
-msgid "end condition"
-msgstr "終了条件"
-
-#. type: Hash Value: ja
-#: refs.translatable.yaml:1
-#, no-wrap
-msgid "Hexadecimal numeric character references"
-msgstr "16進数の数値的な文字参照"
+msgid "tab"
+msgstr "タブ文字"
 
 #. type: Yaml Front Matter Hash Value: author
 #: spec.txt:1
@@ -1078,7 +1078,7 @@ msgid ""
 "take precedence ?"
 msgstr ""
 "行内の構造の印のための優先度の規則は何ですか？\n"
-"例えば、以下は適正なリンクでしょうか、それともコード区域が優先されるのでしょうか？"
+"例えば、以下は適正なリンクでしょうか、それともコード区域が優先するのでしょうか？"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:188
@@ -1128,7 +1128,7 @@ msgstr "リンク参照はブロック引用やリスト項目の内側で定義
 msgid ""
 "If there are multiple definitions for the same reference, which takes\n"
 "precedence?"
-msgstr "同じ参照に複数の定義があるなら、どちらが優先されますか？"
+msgstr "同じ参照に複数の定義があるなら、どちらが優先しますか？"
 
 #. type: paragraph
 #: spec.txt:236
@@ -1202,7 +1202,7 @@ msgid ""
 "percent-encode non-ASCII characters in URLs."
 msgstr ""
 "なおHTMLの例に特有な点については必ずしも仕様では義務付けていません。\n"
-"例えば、仕様では何をもってリンクの宛先とするかが書かれていますが、URLの中のアスキーでない文字がパーセント符号化されていることは義務付けていません。\n"
+"例えば、仕様では何をもってリンク先とするかが書かれていますが、URLの中のアスキーでない文字がパーセント符号化されていることは義務付けていません。\n"
 "自動的なテストを使うためには、実装者達は仕様の例の（URLの中のアスキーでない文字がパーセント符号化された）期待結果に準拠する呈示器を提供する必要があります。\n"
 "しかし準拠する実装では違う呈示器を使うことができURLの中でアスキーでない文字をパーセント符号化しない方を選んでも構いません。"
 
@@ -1622,7 +1622,7 @@ msgid ""
 "of inline structure.  So, for example, the following is a list with\n"
 "two items, not a list with one item containing a code span:"
 msgstr ""
-"ブロックの構造を示すものは行内の構造を示すものより常に優先されます。\n"
+"ブロックの構造の標識は行内の構造の標識に常に優先します。\n"
 "そのため、例えば、以下は2つの項目を持つリストであり、コード区域を含む1つの項目を持つリストではありません。"
 
 # To see and identify by noting a difference or differences; to note the
@@ -1755,7 +1755,7 @@ msgid ""
 "[setext heading](#setext-heading) takes precedence. Thus, for example,\n"
 "this is a setext heading, not a paragraph followed by a thematic break:"
 msgstr ""
-"主題分割であるための上述の条件に合うダッシュの行が[setext見出し](#setext-heading)の下線としても解釈できるならば、[setext見出し](#setext-heading)としての解釈が優先されます。\n"
+"主題分割であるための上述の条件に合うダッシュの行が[setext見出し](#setext-heading)の下線としても解釈できるならば、[setext見出し](#setext-heading)としての解釈が優先します。\n"
 "したがって、例えば、以下はsetext見出しであって、段落に主題分割が続いたものではありません。"
 
 #. type: paragraph
@@ -1764,7 +1764,7 @@ msgstr ""
 msgid ""
 "When both a thematic break and a list item are possible\n"
 "interpretations of a line, the thematic break takes precedence:"
-msgstr "主題分割とリスト項目の両方がとある行の取り得る解釈であるとき、主題分割が優先されます。"
+msgstr "主題分割とリスト項目の両方がとある行の取り得る解釈であるとき、主題分割が優先します。"
 
 #. type: paragraph
 #: spec.txt:1073
@@ -2017,7 +2017,7 @@ msgstr "終わりにバックスラッシュがあっても同じです。"
 msgid ""
 "Since indicators of block structure take precedence over\n"
 "indicators of inline structure, the following are setext headings:"
-msgstr "ブロックの構造の標識が行内の構造の標識よりも優先されるため、以下はsetext見出しです。"
+msgstr "ブロックの構造の標識が行内の構造の標識に優先するため、以下はsetext見出しです。"
 
 #. type: paragraph
 #: spec.txt:1505
@@ -2186,7 +2186,7 @@ msgid ""
 "If there is any ambiguity between an interpretation of indentation\n"
 "as a code block and as indicating that material belongs to a [list\n"
 "item](#list-items), the list item interpretation takes precedence:"
-msgstr "字下げの解釈にコードブロックとするものとその構成物が[リスト項目](#list-items)に属することを示すものとの間で曖昧さがあるならば、リスト項目の解釈が優先されます。"
+msgstr "字下げの解釈にコードブロックとするものとその構成物が[リスト項目](#list-items)に属することを示すものとの間で曖昧さがあるならば、リスト項目の解釈が優先します。"
 
 #. type: paragraph
 #: spec.txt:1786
@@ -2376,10 +2376,6 @@ msgstr "閉止のコード塀では開始の塀と同じ文字を使わなけれ
 msgid "The closing code fence must be at least as long as the opening fence:"
 msgstr "閉止のコード塀は、開始の塀と少なくとも同じ長さでなければなりません。"
 
-# the act of surrounding something with something else, so that it is
-# inside the surrounding object.
-#
-# encloseに閉じるという意味はあまりなさそう
 #. type: paragraph
 #: spec.txt:2060
 #, no-wrap
@@ -2504,7 +2500,7 @@ msgid ""
 msgstr ""
 "7種類の[HTMLブロック](#html-block)があり、その開始と終了の条件で定義できます。\n"
 "このブロックは（3つまで省略可能な字下げの空白があった後に）[開始条件](@)に合う行で始まります。\n"
-"対をなす[終了条件](@)に合う最初の後続する行、またはもし[終了条件](#end-condition)に合う行に遭遇しなければ、文書の最後の行、または現在のHTMLブロックを含む[入れ物ブロック](#container-blocks)の最後の行で終わります。\n"
+"合致する[終了条件](@)に合う最初の後続する行、またはもし[終了条件](#end-condition)に合う行に遭遇しなければ、文書の最後の行、または現在のHTMLブロックを含む[入れ物ブロック](#container-blocks)の最後の行で終わります。\n"
 "最初の行が[開始条件](#start-condition)と[終了条件](#end-condition)の両方に合うなら、ブロックはその行だけを含みます。"
 
 # XXX: space, a tab は空白またはタブの意味？
@@ -2523,7 +2519,7 @@ msgstr ""
 "行が文字列`<pre`、`<script`、`<style`、`<textarea`（大文字と小文字の区別なし）で始まり、空白文字、タブ文字、文字列`>`、ないし行の終わりが後に続くとき。  \n"
 "**終了条件：**\n"
 "行に終了のタグ`</pre>`、`</script>`、`</style>`、`</textarea>`（大文字と小文字の区別なし。\n"
-"開始のタグと合致する必要はありません）が含まれるとき。"
+"開始のタグと合致する必要はありません）を含むとき。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:2374
@@ -2558,7 +2554,7 @@ msgid ""
 "**End condition:** line contains the character `>`."
 msgstr ""
 "**開始条件：**\n"
-"行が文字列`<!`で始まりアスキー文字が後に続くとき。  \n"
+"行がアスキー文字の後に続く文字列`<!`で始まるとき。  \n"
 "**終了条件：**\n"
 "行に文字`>`が含まれるとき。"
 
@@ -2824,7 +2820,7 @@ msgstr "scriptタグ（種別1）は次の通り。"
 #: spec.txt:2783
 #, no-wrap
 msgid "A textarea tag (type 1):"
-msgstr "textareaタグ（種別1）は次の通り。"
+msgstr "textareaタグ（種別1）"
 
 #. type: paragraph
 #: spec.txt:2803
@@ -3054,8 +3050,8 @@ msgid ""
 "from the [link destination](#link-destination) by spaces or tabs.\n"
 "No further character may occur."
 msgstr ""
-"[リンク参照定義](@)は、省略可能な3つまでの字下げの空白が前に付いた[リンクラベル](#link-label)に、コロン (`:`) と、省略可能な（1つまでの[行末](#line-ending)を含む）空白ないしタブと、[リンクの宛先](#link-destination)と、省略可能な（1つまでの[行末](#line-ending)を含む）空白ないしタブと、省略可能な[リンク題](#link-title)とが後に続いたものからなり、題があるなら[リンクの宛先](#link-destination)から空白ないしタブで別れていなければなりません。\n"
-"そしてこれより先に文字が現れてはなりません。"
+"[リンク参照定義](@)は、省略可能な3つまでの字下げの空白が前に付いた[リンクラベル](#link-label)に、コロン (`:`) と、省略可能な（1つまでの[行末](#line-ending)を含む）空白ないしタブと、[リンク先](#link-destination)と、省略可能な（1つまでの[行末](#line-ending)を含む）空白ないしタブと、省略可能な[リンク題](#link-title)とが後に続いたものからなり、題があるなら[リンク先](#link-destination)から空白ないしタブで別れていなければなりません。\n"
+"これ以上の文字が現れてはなりません。"
 
 #. type: paragraph
 #: spec.txt:3186
@@ -3094,7 +3090,7 @@ msgstr "題は省いて構いません。"
 #: spec.txt:3279
 #, no-wrap
 msgid "The link destination must not be omitted:"
-msgstr "リンクの宛先を省いてはなりません。"
+msgstr "リンク先は省いてはなりません。"
 
 #. type: paragraph
 #: spec.txt:3290
@@ -3102,7 +3098,7 @@ msgstr "リンクの宛先を省いてはなりません。"
 msgid ""
 "However, an empty link destination may be specified using\n"
 "angle brackets:"
-msgstr "しかしながら、山括弧を使って空のリンクの宛先を指定して構いません。"
+msgstr "しかしながら、山括弧を使って空のリンク先を指定して構いません。"
 
 #. type: paragraph
 #: spec.txt:3301
@@ -3110,7 +3106,7 @@ msgstr "しかしながら、山括弧を使って空のリンクの宛先を指
 msgid ""
 "The title must be separated from the link destination by\n"
 "spaces or tabs:"
-msgstr "題はリンクの宛先から1つ以上の空白ないしタブで別れていなければなりません。"
+msgstr "題はリンク先から1つ以上の空白ないしタブで別れていなければなりません。"
 
 #. type: paragraph
 #: spec.txt:3314
@@ -3132,7 +3128,7 @@ msgstr "リンクはそれに照応する定義の前に来ることができま
 msgid ""
 "If there are several matching definitions, the first one takes\n"
 "precedence:"
-msgstr "複数の合致する定義があるなら、最初のものが優先されます。"
+msgstr "複数の合致する定義があるなら、最初のものが優先します。"
 
 #. type: paragraph
 #: spec.txt:3350
@@ -3153,7 +3149,7 @@ msgid ""
 "no visible content:"
 msgstr ""
 "何かが[リンク参照定義](#link-reference-definition)かどうかはそれにより定義されるリンク参照が文書で使われているかどうかとは独立です。\n"
-"したがって、例えば、以下の文書にはリンク参照定義だけが含まれており、目に見える内容はありません。"
+"したがって、例えば、以下の文書にはリンク参照定義だけが含まれており、可視の内容はありません。"
 
 #. type: paragraph
 #: spec.txt:3383
@@ -3244,7 +3240,7 @@ msgstr ""
 #: spec.txt:3537
 #, no-wrap
 msgid "A simple example with two paragraphs:"
-msgstr "2つの段落がある簡単な例を示します。"
+msgstr "2つの段落を持つ簡単な例を示します。"
 
 #. type: paragraph
 #: spec.txt:3549
@@ -3306,6 +3302,7 @@ msgstr "ブロック水準の要素の間の[空行](#blank-lines)は、[リス�
 msgid "Blank lines at the beginning and end of the document are also ignored."
 msgstr "文書の最初と最後の空白行は無視されます。"
 
+# 「2つの基礎的な種類の入れ物ブロックがあり」もあります。
 #. type: paragraph
 #: spec.txt:3664
 #, no-wrap
@@ -3316,7 +3313,7 @@ msgid ""
 "[Lists](#lists) are meta-containers for [list items](#list-items)."
 msgstr ""
 "[入れ物ブロック](#container-blocks)は他のブロックを内容として持つブロックです。\n"
-"2種類の基礎的な入れ物ブロックがあり、[ブロック引用](#block-quotes)と[リスト項目](#list-items)です。\n"
+"入れ物ブロックは2つに大別され、[ブロック引用](#block-quotes)と[リスト項目](#list-items)です。\n"
 "[リスト](#lists)は[リスト項目](#list-items)のためのさらなる入れ物です。"
 
 #. type: paragraph
@@ -3536,7 +3533,7 @@ msgid ""
 "with two paragraphs.  But it seems better to allow the author to decide\n"
 "whether two block quotes or one are wanted.)"
 msgstr ""
-"（ほとんどの現在のマークダウンの実装では、John Gruber氏の元来の`Markdown.pl`を含めて、この例を2つの段落がある単一のブロック引用として構文解析するでしょう。\n"
+"（ほとんどの現在のマークダウンの実装では、John Gruber氏の元来の`Markdown.pl`を含めて、この例を2つの段落を持つ単一のブロック引用として構文解析するでしょう。\n"
 "しかし執筆者が2つのブロック引用にしたいか1つにしたいか決めることを許容する方がよいように思われます）"
 
 #. type: paragraph
@@ -3551,7 +3548,7 @@ msgstr "連続性の意味するところは以下のブロック引用を一緒
 #: spec.txt:3971
 #, no-wrap
 msgid "To get a block quote with two paragraphs, use:"
-msgstr "2つの段落があるブロック引用にするには、以下を使います。"
+msgstr "2つの段落を持つブロック引用にするには、以下を使います。"
 
 #. type: paragraph
 #: spec.txt:3985
@@ -3644,7 +3641,7 @@ msgid ""
 "number, based on the ordered list marker."
 msgstr ""
 "**基礎的な場合。**\n"
-"1つ以上の行の系列 *Ls* が空白ないしタブ以外の文字から始まるブロックの系列 *Bs* を構成し、 *M* は幅 *W* のリストの印に1 ≤ *N* ≤ 4個の字下げの空白が後に続いたものであるならば、 *Ls* の最初の行に *M* とその後に続く空白を前に付け、 *Ls* の後続する行を *W + N* 個の空白で字下げした結果は、 *Bs* を内容として持つリスト項目です。\n"
+"1つ以上の行の系列 *Ls* が空白ないしタブ以外の文字から始まるブロックの系列 *Bs* を構成し、 *M* が幅 *W* のリストの印に1 ≤ *N* ≤ 4個の字下げの空白が後に続いたものであるならば、 *Ls* の最初の行に *M* とその後に続く空白を前に付け、 *Ls* の後続する行を *W + N* 個の空白で字下げした結果は、 *Bs* を内容として持つリスト項目です。\n"
 "リスト項目の種別（中黒ないし順序付き）はそのリストの印の種別により決まります。\n"
 "リスト項目が順序付きであるならば、順序付きリストの印に基づいて、開始番号も割り当てられます。"
 
@@ -3816,7 +3813,7 @@ msgid ""
 "start number, based on the ordered list marker."
 msgstr ""
 "**字下げされたコードで始まる項目。**\n"
-"行の系列 *Ls* が字下げコードブロックで始まるブロックの系列 *Bs* から構成され、 *M* は幅 *W* のリストの印に1つの字下げの空白が後に続いたものであるならば、 *M* と後に続く空白を *Ls* の最初の行の前に付け、 *Ls* の後続する行を *W + 1* 個の空白だけ字下げした結果は、 *Bs* を内容として持つリスト項目です。\n"
+"行の系列 *Ls* が字下げコードブロックで始まるブロックの系列 *Bs* から構成され、かつ *M* が幅 *W* のリストの印に1つの字下げの空白が後に続いたものであるならば、 *M* と後に続く空白を *Ls* の最初の行の前に付け、 *Ls* の後続する行を *W + 1* 個の空白だけ字下げした結果は、 *Bs* を内容として持つリスト項目です。\n"
 "行が空ならば、字下げされている必要はありません。\n"
 "リスト項目の種別（中黒ないし順序付き）はリストの印の種別により決まります。\n"
 "リスト項目が順序付きであるならば、順序付きリストの印に基づいて、開始番号も割り当てられます。"
@@ -3915,7 +3912,7 @@ msgstr "以下は、空行で始まるものの、空ではないリスト項目
 msgid ""
 "When the list item starts with a blank line, the number of spaces\n"
 "following the list marker doesn't change the required indentation:"
-msgstr "リスト項目が空行で始まるとき、リストの印の後に続く空白の数では要求される字下げが変わりません。"
+msgstr "リスト項目が空行で始まるとき、リストの印の後に続く空白の数により要求される字下げは変わりません。"
 
 #. type: paragraph
 #: spec.txt:4642
@@ -4168,7 +4165,7 @@ msgid ""
 "*four-space rule*."
 msgstr ""
 "これらの規則ではリスト項目のもとにある段落は4つの空白で字下げされていなければならず（察するに、左端からであって、リストの印の始めからではないと思われますが、述べられていません）、リスト項目のもとにあるコードは通常の4つの代わりに8つの空白で字下げされていなければならないと規定されています。\n"
-"ブロック引用が字下げされていなければならないとも述べていますが、どれだけかについては述べられておらず、しかしながら、与えられた例には4つの空白の字下げがあります。\n"
+"ブロック引用が字下げされていなければならないとも述べていますが、どれだけかについてはなく、しかしながら、与えられた例には4つの空白の字下げがあります。\n"
 "他の種類のブロック水準の内容については何も述べられていないものの、リスト項目のもとにある *すべての* ブロック要素は、別のリストを含めて、4つの空白で字下げされていなければならないと推定するのがきっと理に適っています。\n"
 "この原理は *4つの空白の規則* と呼ばれてきました。"
 
@@ -4208,7 +4205,7 @@ msgid ""
 "in a way that is natural for a human to read."
 msgstr ""
 "残念ながら、実装間の乖離からすると、あらゆる既存の文書が崩れないことを保証するリスト項目のための仕様を与える方法はありません。\n"
-"しかしながら、ここで与えた仕様では4つの空白の規則ないしより寛容な`Markdown.pl`の挙動のどちらで書式化されたリストでも、人間が読む上で自然なやり方で配置されているとするなら、正しく扱われることでしょう。"
+"しかしながら、ここで与えた仕様は4つの空白の規則ないしより寛容な`Markdown.pl`の挙動のどちらで書式化されたリストでも、人間が読む上で自然なやり方で配置されているとするなら、正しく扱うことでしょう。"
 
 # based on or subject to individual discretion or preference or
 # sometimes impulse or caprice; "an arbitrary decision"; "the arbitrary
@@ -4275,7 +4272,7 @@ msgid ""
 "`Markdown.pl` parses"
 msgstr ""
 "2つの空白の規則を取り入れれば助けになったのでしょうか？\n"
-"問題はそうした規則では、最初のリストの印に3つまでの字下げの空白が許容される規則と組み合わさると、元のリストの印 *より少なく* 字下げされたテキストがリスト項目に含める上で許容されることです。\n"
+"問題はそうした規則では、最初のリストの印に3つまでの字下げの空白が許容される規則と組み合わさると、元のリストの印 *より少なく* 字下げされたテキストがリスト項目に含める上で許容されます。\n"
 "例えば、`Markdown.pl`が以下を構文解析すると……"
 
 #. type: paragraph
@@ -4315,7 +4312,7 @@ msgid ""
 msgstr ""
 "端からの固定の字下げを要求するのではなく、リストの印（これ自体も字下げして構いません）から固定の字下げ（2つの空白か、1つの空白としましょう）を要求することができたでしょう。\n"
 "この提案では議論した最後の異常な点は除かれるでしょう。\n"
-"上で提示された仕様とは異なり、段落`bar`が最初の段落`foo`と同じくらい深く字下げされていないにしても、以下を副段落のあるリスト項目として見なすでしょう。"
+"上で提示された仕様とは異なり、段落`bar`が最初の段落`foo`と同じくらい深く字下げされていないにしても、以下を副段落を持つリスト項目として見なすでしょう。"
 
 #. type: paragraph
 #: spec.txt:5207
@@ -4338,7 +4335,7 @@ msgid ""
 "parse this text as expected, since the code block's indentation is measured\n"
 "from the beginning of `foo`."
 msgstr ""
-"ここでこのコードは8つの空白で字下げされています。\n"
+"……このコードは8つの空白で字下げされています。\n"
 "上述の仕様では、対照的に、このテキストを期待通りに構文解析するでしょうが、それはコードブロックの字下げが`foo`の始めから計測されるためです。"
 
 # 規定しており
@@ -4444,7 +4441,7 @@ msgstr ""
 msgid ""
 "`Markdown.pl` does not allow this, through fear of triggering a list\n"
 "via a numeral in a hard-wrapped line:"
-msgstr "`Markdown.pl`ではこれが許容されていませんが、それは固く折り返された行の中の数字によりリストを誘発する恐れがあるためです。"
+msgstr "`Markdown.pl`ではこれは許容されていませんが、これは固く折り返された行の中の数字によりリストを誘発する恐れがあるためです。"
 
 #. type: paragraph
 #: spec.txt:5317
@@ -4579,7 +4576,7 @@ msgid ""
 "three spaces of indentation.  Here `- e` is treated as a paragraph continuation\n"
 "line, because it is indented more than three spaces:"
 msgstr ""
-"なお、しかしながら、リスト項目には3つを超える字下げの空白を前に付けてはなりません。\n"
+"なお、しかしながら、リスト項目には3つの字下げの空白を越えて前に付けてはなりません。\n"
 "以下では`- e`は段落継続行として扱われますが、これは3つの空白より多く字下げされているからです。"
 
 #. type: paragraph
@@ -4677,7 +4674,7 @@ msgid ""
 "stream to the end (left to right, in left-to-right languages).\n"
 "Thus, for example, in"
 msgstr ""
-"行内要素は文字のストリームの始めから終わりへ（右書きの言語では、左から右へ）逐次に構文解析されます。\n"
+"行内要素は文字の流れの始めから終わりへ（右書きの言語では、左から右へ）逐次に構文解析されます。\n"
 "したがって、例えば……"
 
 #. type: paragraph
@@ -4686,7 +4683,7 @@ msgstr ""
 msgid ""
 "`hi` is parsed as code, leaving the backtick at the end as a literal\n"
 "backtick."
-msgstr "`hi`はコードとして構文解析され、最後にある抑音符は文字通りの抑音符として残ります。"
+msgstr "……で`hi`はコードとして構文解析され、最後にある抑音符は文字通りの抑音符として残ります。"
 
 #. type: paragraph
 #: spec.txt:5881
@@ -4792,7 +4789,7 @@ msgstr "[行末](#line-ending)は空白のように扱われます。"
 #: spec.txt:5985
 #, no-wrap
 msgid "Interior spaces are not collapsed:"
-msgstr "内側の空白は縮約されません。"
+msgstr "内側の空白は縮められません。"
 
 #. type: paragraph
 #: spec.txt:5994
@@ -4801,7 +4798,7 @@ msgid ""
 "Note that browsers will typically collapse consecutive spaces\n"
 "when rendering `<code>` elements, so it is recommended that\n"
 "the following CSS be used:"
-msgstr "なおブラウザでは`<code>`要素を呈示するときに連続する空白を縮約するのが通例であるため、以下のCSSを使うことが推奨されます。"
+msgstr "なおブラウザでは`<code>`要素を呈示するときに連続する空白を縮めることが通例であるため、以下のCSSを使うことが推奨されます。"
 
 #. type: paragraph
 #: spec.txt:6001
@@ -5030,7 +5027,7 @@ msgid ""
 "are a bit more complex than the ones given here.)"
 msgstr ""
 "（左側と右側の区切り連を前の文字と後の文字に基づいて区別するという発想はRoopesh Chander氏の[vfmd](https://web.archive.org/web/20220608143320/http://www.vfmd.org/vfmd-spec/specification/#procedure-for-identifying-emphasis-tags)から来ています。\n"
-"vfmdでは「区切り連」の代わりに「強調の指標の文字列」という用語が使われており左側と右側の連を区別する規則はここで与えているものより少しだけ複雑です）"
+"vfmdでは「区切り連」の代わりに「強調の標識の文字列」という用語が使われており左側と右側の連を区別する規則はここで与えているものより少しだけ複雑です）"
 
 #. type: paragraph
 #: spec.txt:6222
@@ -5044,7 +5041,7 @@ msgstr "以下の規則により、強調と強い強調が定義されます。
 msgid ""
 "A single `*` character [can open emphasis](@)\n"
 "iff (if and only if) it is part of a [left-flanking delimiter run](#left-flanking-delimiter-run)."
-msgstr "単一の`*`の文字が[強調の開始が可能](@)であるのは[左側の区切り連](#left-flanking-delimiter-run)の一部であるときでありまたそのときに限ります (if and only if; iff)。"
+msgstr "単一の`*`の文字が[強調の開始可能](@)であるのは[左側の区切り連](#left-flanking-delimiter-run)の一部であるときでありまたそのときに限ります (if and only if; iff)。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:6227
@@ -5055,7 +5052,7 @@ msgid ""
 "and either (a) not part of a [right-flanking delimiter run](#right-flanking-delimiter-run)\n"
 "or (b) part of a [right-flanking delimiter run](#right-flanking-delimiter-run)\n"
 "preceded by a [Unicode punctuation character](#unicode-punctuation-character)."
-msgstr "単一の`_`の文字が[強調の開始が可能](#can-open-emphasis)であるのは[左側の区切り連](#left-flanking-delimiter-run)の一部でありかつ (a) [右側の区切り連](#right-flanking-delimiter-run)の一部でないか (b) [ユニコードの約物文字](#unicode-punctuation-character)が前に付いた[右側の区切り連](#right-flanking-delimiter-run)の一部であるかのいずれかのときでありまたそのときに限ります。"
+msgstr "単一の`_`の文字が[強調の開始可能](#can-open-emphasis)であるのは[左側の区切り連](#left-flanking-delimiter-run)の一部でありかつ (a) [右側の区切り連](#right-flanking-delimiter-run)の一部でないか (b) [ユニコードの約物文字](#unicode-punctuation-character)が前に付いた[右側の区切り連](#right-flanking-delimiter-run)の一部であるかのいずれかのときでありまたそのときに限ります。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:6233
@@ -5063,7 +5060,7 @@ msgstr "単一の`_`の文字が[強調の開始が可能](#can-open-emphasis)�
 msgid ""
 "A single `*` character [can close emphasis](@)\n"
 "iff it is part of a [right-flanking delimiter run](#right-flanking-delimiter-run)."
-msgstr "単一の`*`の文字が[強調の閉止が可能](@)であるのは[右側の区切り連](#right-flanking-delimiter-run)の一部であるときでありまたそのときに限ります。"
+msgstr "単一の`*`の文字が[強調の閉止可能](@)であるのは[右側の区切り連](#right-flanking-delimiter-run)の一部であるときでありまたそのときに限ります。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:6236
@@ -5074,7 +5071,7 @@ msgid ""
 "and either (a) not part of a [left-flanking delimiter run](#left-flanking-delimiter-run)\n"
 "or (b) part of a [left-flanking delimiter run](#left-flanking-delimiter-run)\n"
 "followed by a [Unicode punctuation character](#unicode-punctuation-character)."
-msgstr "単一の`_`の文字が[強調の閉止が可能](#can-close-emphasis)であるのは[右側の区切り連](#right-flanking-delimiter-run)の一部でありかつ (a) [左側の区切り連](#left-flanking-delimiter-run)の一部ではないか (b) [ユニコードの約物文字](#unicode-punctuation-character)が後に続く[左側の区切り連](#left-flanking-delimiter-run)の一部であるかのいずれかのときでありまたそのときに限ります。"
+msgstr "単一の`_`の文字が[強調の閉止可能](#can-close-emphasis)であるのは[右側の区切り連](#right-flanking-delimiter-run)の一部でありかつ (a) [左側の区切り連](#left-flanking-delimiter-run)の一部ではないか (b) [ユニコードの約物文字](#unicode-punctuation-character)が後に続く[左側の区切り連](#left-flanking-delimiter-run)の一部であるかのいずれかのときでありまたそのときに限ります。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:6242
@@ -5082,7 +5079,7 @@ msgstr "単一の`_`の文字が[強調の閉止が可能](#can-close-emphasis)�
 msgid ""
 "A double `**` [can open strong emphasis](@)\n"
 "iff it is part of a [left-flanking delimiter run](#left-flanking-delimiter-run)."
-msgstr "二重の`**`が[強い強調の開始が可能](@)であるのは[左側の区切り連](#left-flanking-delimiter-run)の一部であるときでありまたそのときに限ります。"
+msgstr "二重の`**`が[強い強調の開始可能](@)であるのは[左側の区切り連](#left-flanking-delimiter-run)の一部であるときでありまたそのときに限ります。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:6245
@@ -5093,7 +5090,7 @@ msgid ""
 "and either (a) not part of a [right-flanking delimiter run](#right-flanking-delimiter-run)\n"
 "or (b) part of a [right-flanking delimiter run](#right-flanking-delimiter-run)\n"
 "preceded by a [Unicode punctuation character](#unicode-punctuation-character)."
-msgstr "二重である`__`が[強い強調の開始が可能](#can-open-strong-emphasis)であるのは[左側の区切り連](#left-flanking-delimiter-run)の一部でありかつ (a) [右側の区切り連](#right-flanking-delimiter-run)の一部でないか (b) [ユニコードの約物文字](#unicode-punctuation-character)が前に付く[左側の区切り連](#right-flanking-delimiter-run)の一部であるときのいずれかのときでありまたそのときに限ります。"
+msgstr "二重である`__`が[強い強調の開始可能](#can-open-strong-emphasis)であるのは[左側の区切り連](#left-flanking-delimiter-run)の一部でありかつ (a) [右側の区切り連](#right-flanking-delimiter-run)の一部でないか (b) [ユニコードの約物文字](#unicode-punctuation-character)が前に付く[左側の区切り連](#right-flanking-delimiter-run)の一部であるときのいずれかのときでありまたそのときに限ります。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:6251
@@ -5101,7 +5098,7 @@ msgstr "二重である`__`が[強い強調の開始が可能](#can-open-strong-
 msgid ""
 "A double `**` [can close strong emphasis](@)\n"
 "iff it is part of a [right-flanking delimiter run](#right-flanking-delimiter-run)."
-msgstr "二重である`**`が[強い強調の閉止が可能](@)であるのは[右側の区切り連](#right-flanking-delimiter-run)の一部であるときでありまたそのときに限ります。"
+msgstr "二重である`**`が[強い強調の閉止可能](@)であるのは[右側の区切り連](#right-flanking-delimiter-run)の一部であるときでありまたそのときに限ります。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:6254
@@ -5112,7 +5109,7 @@ msgid ""
 "and either (a) not part of a [left-flanking delimiter run](#left-flanking-delimiter-run)\n"
 "or (b) part of a [left-flanking delimiter run](#left-flanking-delimiter-run)\n"
 "followed by a [Unicode punctuation character](#unicode-punctuation-character)."
-msgstr "二重である`__`が[強い強調の閉止が可能](#can-close-strong-emphasis)であるのは[右側の区切り連](#right-flanking-delimiter-run)の一部でありかつ (a) [左側の区切り連](#left-flanking-delimiter-run)の一部でないか (b) [ユニコードの約物文字](#unicode-punctuation-character)が後に続く[左側の区切り連](#left-flanking-delimiter-run)の一部であるときでありまたそのときに限ります。"
+msgstr "二重である`__`が[強い強調の閉止可能](#can-close-strong-emphasis)であるのは[右側の区切り連](#right-flanking-delimiter-run)の一部でありかつ (a) [左側の区切り連](#left-flanking-delimiter-run)の一部でないか (b) [ユニコードの約物文字](#unicode-punctuation-character)が後に続く[左側の区切り連](#left-flanking-delimiter-run)の一部であるときでありまたそのときに限ります。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:6260
@@ -5128,7 +5125,7 @@ msgid ""
 "must not be a multiple of 3 unless both lengths are\n"
 "multiples of 3."
 msgstr ""
-"強調は[強調の開始が可能](#can-open-emphasis)な区切りで始まり[強調の閉止が可能](#can-close-emphasis)な区切りで終わり、それには開始の区切りと同じ（`_`ないし`*`の）文字が使われます。\n"
+"強調は[強調の開始可能](#can-open-emphasis)な区切りで始まり[強調の閉止可能](#can-close-emphasis)な区切りで終わり、それには開始の区切りと同じ（`_`ないし`*`の）文字が使われます。\n"
 "開始と閉止の区切りは離れた[区切り連](#delimiter-run)に属していなければなりません。\n"
 "いずれかの区切りで強調を開始することも閉止することも両方できるならば、開始と閉止の区切りを含む区切り連の長さの和は両方の長さが3の倍数でない限り3の倍数であってはなりません。"
 
@@ -5147,7 +5144,7 @@ msgid ""
 "delimiters must not be a multiple of 3 unless both lengths\n"
 "are multiples of 3."
 msgstr ""
-"強い強調は[強い強調の開始が可能](#can-open-strong-emphasis)な区切りで始まり[強い強調の閉止が可能](#can-close-strong-emphasis)な区切りで終わり、それには開始の区切りと同じ（`_`ないし`*`の）文字が使われます。\n"
+"強い強調は[強い強調の開始可能](#can-open-strong-emphasis)な区切りで始まり[強い強調の閉止可能](#can-close-strong-emphasis)な区切りで終わり、それには開始の区切りと同じ（`_`ないし`*`の）文字が使われます。\n"
 "開始と閉止の区切りは離れた[区切り連](#delimiter-run)に属していなければなりません。\n"
 "区切りのいずれかが強い強調を開始することも閉止することも両方できるならば、開始と閉止の区切りを含む区切り連の長さの和は両方の長さが3の倍数でない限り3の倍数であってはなりません。"
 
@@ -5186,7 +5183,7 @@ msgid ""
 "`<em><em>...</em></em>`."
 msgstr ""
 "入れ子の数は最小化されるべきです。\n"
-"したがって、例えば、`<strong>...</strong>`の解釈は`<em><em>...</em></em>`より常に優先されます。"
+"したがって、例えば、`<strong>...</strong>`の解釈は`<em><em>...</em></em>`に常に優先します。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:6296
@@ -5194,7 +5191,7 @@ msgstr ""
 msgid ""
 "An interpretation `<em><strong>...</strong></em>` is always\n"
 "preferred to `<strong><em>...</em></strong>`."
-msgstr "`<em><strong>...</strong></em>`の解釈は`<strong><em>...</em></strong>`より常に優先されます。"
+msgstr "`<em><strong>...</strong></em>`の解釈は`<strong><em>...</em></strong>`に常に優先します。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:6299
@@ -5206,7 +5203,7 @@ msgid ""
 "`*foo _bar* baz_` is parsed as `<em>foo _bar</em> baz_` rather\n"
 "than `*foo <em>bar* baz</em>`."
 msgstr ""
-"2つの強調ないし強い強調になる潜在性のある区域が重なり合っているとき、つまり2つ目が1つ目の終わりの前に始まり1つ目の終わりの後に終わるとき、1つ目が優先されます。\n"
+"2つの強調ないし強い強調になる潜在性のある区域が重なり合っているとき、つまり2つ目が1つ目の終わりの前に始まり1つ目の終わりの後に終わるとき、1つ目が優先します。\n"
 "したがって、例えば、`*foo _bar* baz_`は`*foo <em>bar* baz</em>`ではなく`<em>foo _bar</em> baz_`として構文解析されます。"
 
 #. type: ordered list (period delim) / item / paragraph
@@ -5219,7 +5216,7 @@ msgid ""
 "`**foo **bar baz**` is parsed as `**foo <strong>bar baz</strong>`\n"
 "rather than `<strong>foo **bar baz</strong>`."
 msgstr ""
-"同じ閉止の区切りを持つ2つの強調ないし強い強調になる潜在性のある区域があるとき、短かい方（後に開いた方）が優先されます。\n"
+"同じ閉止の区切りを持つ2つの強調ないし強い強調になる潜在性のある区域があるとき、短かい方（後に開いた方）が優先します。\n"
 "したがって、例えば、`**foo **bar baz**`は`<strong>foo **bar baz</strong>`ではなく`**foo <strong>bar baz</strong>`として構文解析されます。"
 
 #. type: ordered list (period delim) / item / paragraph
@@ -5233,7 +5230,7 @@ msgid ""
 "parsed as `*<a href=\"bar\">foo*</a>` rather than as\n"
 "`<em>[foo</em>](bar)`."
 msgstr ""
-"行内コード区域、リンク、HTMLタグは強調より結束が固いです。\n"
+"行内コード区域、リンク、HTMLタグは強調より固く結び付きます。\n"
 "そのため、そうした要素のいずれかは含みいずれかは含まないという解釈間での選択があるとき、前者が常に勝ちます。\n"
 "したがって、例えば、`*[foo*](bar)`は`<em>[foo</em>](bar)`ではなく`*<a href=\"bar\">foo*</a>`として構文解析されます。"
 
@@ -5247,7 +5244,7 @@ msgstr "これらの規則は、以降の例を通じて、分かりやすく表
 #: spec.txt:6320
 #, no-wrap
 msgid "Rule 1:"
-msgstr "規則1番目は以下の通り。"
+msgstr "規則1番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:6329
@@ -5288,7 +5285,7 @@ msgstr "`*`による単語内の強調は許されます。"
 #: spec.txt:6393
 #, no-wrap
 msgid "Rule 2:"
-msgstr "規則2番目は以下の通り。"
+msgstr "規則2番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:6402
@@ -5333,7 +5330,7 @@ msgstr "開始の区切りが左側と右側の両方であるとしても、以
 #: spec.txt:6466
 #, no-wrap
 msgid "Rule 3:"
-msgstr "規則3番目は以下の通り。"
+msgstr "規則3番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:6468
@@ -5384,7 +5381,7 @@ msgstr "`*`による単語内の強調は許されます。"
 #: spec.txt:6530
 #, no-wrap
 msgid "Rule 4:"
-msgstr "規則4番目は以下の通りです。"
+msgstr "規則4番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:6532
@@ -5427,7 +5424,7 @@ msgstr "以下は、閉止の区切りが左側と右側の両方であるとし
 #: spec.txt:6595
 #, no-wrap
 msgid "Rule 5:"
-msgstr "規則5番目は以下の通りです。"
+msgstr "規則5番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:6604 spec.txt:6643
@@ -5456,7 +5453,7 @@ msgstr "`**`による単語内の強い強調は許されます。"
 #: spec.txt:6634
 #, no-wrap
 msgid "Rule 6:"
-msgstr "規則6番目は以下の通りです。"
+msgstr "規則6番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:6653
@@ -5491,7 +5488,7 @@ msgstr "以下は、開始の区切りが左側と右側の両方であるとし
 #: spec.txt:6715
 #, no-wrap
 msgid "Rule 7:"
-msgstr "規則7番目は以下の通りです。"
+msgstr "規則7番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:6717
@@ -5535,7 +5532,7 @@ msgstr "単語内の強調について以下の通りです。"
 #: spec.txt:6775
 #, no-wrap
 msgid "Rule 8:"
-msgstr "規則8番目は以下の通りです。"
+msgstr "規則8番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:6777
@@ -5566,7 +5563,7 @@ msgstr "以下は、閉止の区切りが左側と右側の両方であるとし
 #: spec.txt:6841
 #, no-wrap
 msgid "Rule 9:"
-msgstr "規則9番目："
+msgstr "規則9番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:6843
@@ -5649,7 +5646,7 @@ msgstr "空の強調や強い強調はありえません。"
 #: spec.txt:7007
 #, no-wrap
 msgid "Rule 10:"
-msgstr "規則10番目は次の通り。"
+msgstr "規則10番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:7009
@@ -5671,7 +5668,7 @@ msgstr "とりわけ、強調と強い強調は強い強調内に入れ子にな
 #: spec.txt:7122
 #, no-wrap
 msgid "Rule 11:"
-msgstr "規則11番目は次の通り。"
+msgstr "規則11番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:7166
@@ -5686,7 +5683,7 @@ msgstr "なお区切りが均等に合致しないときは、規則11番目に�
 #: spec.txt:7213
 #, no-wrap
 msgid "Rule 12:"
-msgstr "規則12番目は次の通りです。"
+msgstr "規則12番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:7264
@@ -5725,26 +5722,27 @@ msgstr "規則13番目は好きなだけ長い区切りの系列にも適用で�
 #: spec.txt:7362
 #, no-wrap
 msgid "Rule 14:"
-msgstr "規則14番目は次の通りです。"
+msgstr "規則14番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:7378
 #, no-wrap
 msgid "Rule 15:"
-msgstr "規則15番目は次の通りです。"
+msgstr "規則15番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:7394
 #, no-wrap
 msgid "Rule 16:"
-msgstr "規則16番目は次の通りです。"
+msgstr "規則16番目に関して以下の通り。"
 
 #. type: paragraph
 #: spec.txt:7410
 #, no-wrap
 msgid "Rule 17:"
-msgstr "規則17番目は次の通りです。"
+msgstr "規則17番目に関して以下の通り。"
 
+# 「においては2つの基礎的な種類のリンクがあります」も考えられます。
 #. type: paragraph
 #: spec.txt:7478
 #, no-wrap
@@ -5756,8 +5754,8 @@ msgid ""
 "[reference links](#reference-link) the destination and title are defined elsewhere in\n"
 "the document."
 msgstr ""
-"[リンクテキスト](#link-text)にはリンク（可視テキスト）、[リンクの宛先](#link-destination)（リンクの宛先であるURI）、省略可能な[リンク題](#link-title)が含まれます。\n"
-"マークダウンにおいては2種類の基礎的なリンクがあります。\n"
+"[リンクテキスト](#link-text)にはリンク（可視のテキスト）、[リンク先](#link-destination)（リンク先であるURI）、省略可能な[リンク題](#link-title)が含まれます。\n"
+"マークダウンではリンクは2つに大別されます。\n"
 "[行内リンク](#inline-link)では宛先と題はリンクテキストの直後に与えられます。\n"
 "[参照リンク](#reference-link)では宛先と題は文書のどこかに定義されます。"
 
@@ -5781,7 +5779,7 @@ msgid ""
 "other, the inner-most definition is used."
 msgstr ""
 "リンクには、どの入れ子の水準にも、別のリンクは含められません。\n"
-"もし複数のさもなくば適正なリンクの定義がそれぞれ他の内部に入れ子で現れているなら、最奥の定義が使われます。"
+"含められていたとしたら適正であったであろう複数のリンクの定義がそれぞれ他の内部に入れ子で現れているなら、最奥の定義が使われます。"
 
 #. type: bullet list / item / paragraph
 #: spec.txt:7493
@@ -5802,7 +5800,7 @@ msgid ""
 "`` [foo`]` `` could not be a link text, since the second `]`\n"
 "is part of a code span."
 msgstr ""
-"抑音符の[コード区域](#code-spans)、[自動リンク](#autolinks)、素の[HTMLタグ](#html-tag)はリンクテキストにおける角括弧よりも固く結束します。\n"
+"抑音符の[コード区域](#code-spans)、[自動リンク](#autolinks)、素の[HTMLタグ](#html-tag)はリンクテキストにおける角括弧よりも固く結び付きます。\n"
 "したがって、例えば、`` [foo`]` ``はリンクテキストになりえませんが、それは2つ目の`]`がコード区域の一部であるためです。"
 
 #. type: bullet list / item / paragraph
@@ -5812,14 +5810,14 @@ msgid ""
 "The brackets in link text bind more tightly than markers for\n"
 "[emphasis and strong emphasis](#emphasis-and-strong-emphasis). Thus, for example, `*[foo*](url)` is a link."
 msgstr ""
-"リンクテキストにおける角括弧は[強調と強い強調](#emphasis-and-strong-emphasis)のための印より固く結束します。\n"
+"リンクテキストにおける角括弧は[強調と強い強調](#emphasis-and-strong-emphasis)のための印より固く結び付きます。\n"
 "したがって、例えば、`*[foo*](url)`はリンクです。"
 
 #. type: paragraph
 #: spec.txt:7506
 #, no-wrap
 msgid "A [link destination](@) consists of either"
-msgstr "[リンクの宛先](@)は次のいずれかからなります。"
+msgstr "[リンク先](@)は次のいずれかからなります。"
 
 #. type: bullet list / item / paragraph
 #: spec.txt:7508
@@ -5897,9 +5895,9 @@ msgid ""
 "If both [link destination](#link-destination) and [link title](#link-title) are present, they *must* be\n"
 "separated by spaces, tabs, and up to one line ending."
 msgstr ""
-"[行内リンク](@)は[リンクテキスト](#link-text)とその直後に続く左の丸括弧`(`、省略可能な[リンクの宛先](#link-destination)、省略可能な[リンク題](#link-title)、そして右の丸括弧`)`からなります。\n"
+"[行内リンク](@)は[リンクテキスト](#link-text)とその直後に続く左の丸括弧`(`、省略可能な[リンク先](#link-destination)、省略可能な[リンク題](#link-title)、そして右の丸括弧`)`からなります。\n"
 "これらの4つの構成要素は空白、タブ、1つまでの行末で別れていて構いません。\n"
-"[リンクの宛先](#link-destination)と[リンク題](#link-title)の両方が存在するなら、空白、タブ、1つまでの行末で別れて *いなければならない* とします。"
+"[リンク先](#link-destination)と[リンク題](#link-title)の両方が存在するなら、空白、タブ、1つまでの行末で別れて *いなければならない* とします。"
 
 #. type: paragraph
 #: spec.txt:7546
@@ -5914,7 +5912,7 @@ msgid ""
 "above."
 msgstr ""
 "リンクのテキストは[リンクテキスト](#link-text)の中に含まれる（取り囲む角括弧を除く）行内要素からなります。\n"
-"リンクのURIはリンクの宛先からなり、もしあるなら取り囲む`<...>`は除かれ、上述したようなバックスラッシュのエスケープが効果を持ちます。\n"
+"リンクのURIはリンク先からなり、もしあるなら取り囲む`<...>`は除かれ、上述したようなバックスラッシュのエスケープが効果を持ちます。\n"
 "リンク題はリンクの題名からなり、取り囲む区切りを除き、上述したようなバックスラッシュのエスケープが効果を持ちます。"
 
 #. type: paragraph
@@ -5973,7 +5971,7 @@ msgstr "以下はリンクではありませんが、それは開く山括弧が
 #: spec.txt:7663
 #, no-wrap
 msgid "Parentheses inside the link destination may be escaped:"
-msgstr "リンクの宛先内の丸括弧はエスケープして構いません。"
+msgstr "リンク先の内部の丸括弧はエスケープして構いません。"
 
 #. type: paragraph
 #: spec.txt:7671
@@ -6076,7 +6074,7 @@ msgstr "入れ子にされた釣り合いの取れた引用符はエスケープ
 #: spec.txt:7809
 #, no-wrap
 msgid "But it is easy to work around this by using a different quote type:"
-msgstr "しかし違う引用符の種別を使うと開始しやすいです。"
+msgstr "しかし違う引用符の種別を使って回避するのは簡単です。"
 
 #. type: paragraph
 #: spec.txt:7818
@@ -6099,7 +6097,7 @@ msgid ""
 msgstr ""
 "（註：`Markdown.pl`ではたしかに二重引用符の題の内部の二重引用符が許容されており、そのテスト一式にはこれを論証するテストが含まれます。\n"
 "しかしこれによりもたらされる余剰の複雑性に良い合理性を見いだしがたく、というのも二重引用符を含む題を書く上で多くの方法――バックスラッシュのエスケープ、実体と数値的な文字参照、題を囲むための違う引用符の種別の使用――が既にあるからです。\n"
-"`Markdown.pl`の題の扱いには数々の他の妙な特徴があります。\n"
+"`Markdown.pl`の題の扱いには他にも数々の妙な特徴があります。\n"
 "例えば、行内リンクでは単一引用符の題が許容されていますが、参照リンクではされません。\n"
 "また、行内リンクではそうではありませんが参照リンクでは、題を`\"`で始めたり`)`で終わったりすることが許容されています。\n"
 "`Markdown.pl` 1.0.1でも囲む引用符のない題が許容されていますが、1.0.2b8では許容されていません。\n"
@@ -6111,7 +6109,7 @@ msgstr ""
 msgid ""
 "Spaces, tabs, and up to one line ending is allowed around the destination and\n"
 "title:"
-msgstr "空白、タブ、1つまでの行末は宛先と題の周りに許容されます。"
+msgstr "空白、タブ、1つまでの行末は宛先と題の周りにおいて許容されます。"
 
 #. type: paragraph
 #: spec.txt:7844
@@ -6155,7 +6153,7 @@ msgstr "以下の事例では強調の結び付きに対してリンクテキス
 msgid ""
 "Note that brackets that *aren't* part of links do not take\n"
 "precedence:"
-msgstr "なおリンクの一部 *ではない* 角括弧は優先されません。"
+msgstr "なおリンクの一部 *ではない* 角括弧は優先しません。"
 
 #. type: paragraph
 #: spec.txt:7951 spec.txt:8103
@@ -6163,7 +6161,7 @@ msgstr "なおリンクの一部 *ではない* 角括弧は優先されませ�
 msgid ""
 "These cases illustrate the precedence of HTML tags, code spans,\n"
 "and autolinks over link grouping:"
-msgstr "以下の事例ではHTMLタグ、コード区域、自動リンクがリンクの結び付きに対して優先することが例証されています。"
+msgstr "以下の事例ではHTMLタグ、コード区域、自動リンクがリンクの結び付きに優先することが例証されています。"
 
 #. type: paragraph
 #: spec.txt:7975
@@ -6172,7 +6170,7 @@ msgid ""
 "There are three kinds of [reference link](@)s:\n"
 "[full](#full-reference-link), [collapsed](#collapsed-reference-link),\n"
 "and [shortcut](#shortcut-reference-link)."
-msgstr "3種類の[参照リンク](@)である、[完全](#full-reference-link)、[短縮](#collapsed-reference-link)、[簡略](#shortcut-reference-link)があります。"
+msgstr "[参照リンク](@)には3種類あり、[完全](#full-reference-link)、[縮約](#collapsed-reference-link)、[簡略](#shortcut-reference-link)です。"
 
 #. type: paragraph
 #: spec.txt:7979
@@ -6181,7 +6179,7 @@ msgid ""
 "A [full reference link](@)\n"
 "consists of a [link text](#link-text) immediately followed by a [link label](#link-label)\n"
 "that [matches](#matches) a [link reference definition](#link-reference-definition) elsewhere in the document."
-msgstr "[完全参照リンク](@)は文書のどこかにある[リンク参照定義](#link-reference-definition)に[合致](#matches)する[リンクテキスト](#link-text)に[リンクラベル](#link-label)が直後に続いたものからなります。"
+msgstr "[完全参照リンク](@)は[リンクテキスト](#link-text)に文書のどこかにある[リンク参照定義](#link-reference-definition)に[合致](#matches)する[リンクラベル](#link-label)が直後に続いたものからなります。"
 
 #. type: paragraph
 #: spec.txt:7983
@@ -6215,7 +6213,7 @@ msgid ""
 "document is used.  (It is desirable in such cases to emit a warning.)"
 msgstr ""
 "あるラベルが別のものに[合致](@)するのはそれらの正規化された形態が等しい場合に限ります。\n"
-"ラベルを正規化する上では、開始と閉止の角括弧を切り詰めて、 *ユニコードの大文字と小文字の折り畳み* が行われ、先頭と末尾の空白、タブ、行末が切り詰められ、連続する内部の空白、タブ、行末が単一の空白に縮約されます。\n"
+"ラベルを正規化する上では、開始と閉止の角括弧を切り詰めて、 *ユニコードの大文字と小文字の折り畳み* が行われ、先頭と末尾の空白、タブ、行末が切り詰められ、連続する内部の空白、タブ、行末が単一の空白に縮められます。\n"
 "複数の合致する参照リンク定義があるなら、文書で最初に来るものが使われます（そうした場合に警告を出すのが望ましいです）。"
 
 #. type: paragraph
@@ -6226,6 +6224,7 @@ msgid ""
 "reference definition](#link-reference-definition)."
 msgstr "リンクのURIと題は合致する[リンク参照定義](#link-reference-definition)により供されます。"
 
+# NOTE: 「Thus:」の解釈はこれでいいのでしょうか。
 #. type: paragraph
 #: spec.txt:8015
 #, no-wrap
@@ -6234,7 +6233,7 @@ msgid ""
 "[inline links](#inline-link).  Thus:"
 msgstr ""
 "[リンクテキスト](#link-text)の規則は[行内リンク](#inline-link)と同じです。\n"
-"したがって……"
+"したがって以降の通りです。"
 
 #. type: paragraph
 #: spec.txt:8079
@@ -6250,7 +6249,7 @@ msgstr "（上の例では、1つの[完全参照リンク](#full-reference-link
 msgid ""
 "The following cases illustrate the precedence of link text grouping over\n"
 "emphasis grouping:"
-msgstr "以下の事例ではリンクテキストの結び付きの強調の結び付きに対する優先度が例証されています。"
+msgstr "以下の事例では強調の結び付きに対するリンクテキストの結び付きの優先度が例証されています。"
 
 #. type: paragraph
 #: spec.txt:8133
@@ -6369,7 +6368,7 @@ msgid ""
 "provided by the matching reference link definition.  Thus,\n"
 "`[foo][]` is equivalent to `[foo][foo]`."
 msgstr ""
-"[縮約参照リンク](@)は文書のどこかにある[リンク参照定義](#link-reference-definition)に[合致](#matches)する[リンクラベル](#link-label)に文字列`[]`が後に続いたものからなります。\n"
+"[縮約参照リンク](@)は文書のどこかにある[リンク参照定義](#link-reference-definition)に[合致](#matches)する[リンクラベル](#link-label)に、文字列`[]`が後に続いたものからなります。\n"
 "リンクラベルの内容は行内として構文解析され、リンクのテキストとして使われます。\n"
 "リンクのURLと題は合致する参照リンク定義により供されます。\n"
 "したがって、`[foo][]`は`[foo][foo]`と等価です。"
@@ -6401,7 +6400,7 @@ msgid ""
 "are provided by the matching link reference definition.\n"
 "Thus, `[foo]` is equivalent to `[foo][]`."
 msgstr ""
-"[簡略参照リンク](@)は文書のどこかにある[リンク参照定義](#link-reference-definition)に[合致](#matches)し`[]`ないしリンクラベルが後に続かない[リンクラベル](#link-label)からなります。\n"
+"[簡略参照リンク](@)は文書のどこかにある[リンク参照定義](#link-reference-definition)に[合致](#matches)する[リンクラベル](#link-label)からなり`[]`ないしリンクラベルが後に続かないものです。\n"
 "リンクラベルの内容は行内として構文解析され、リンクのテキストとして使われます。\n"
 "リンクのURIと題は合致するリンク参照定義により供されます。\n"
 "したがって、`[foo]`は`[foo][]`と等価です。"
@@ -6426,7 +6425,7 @@ msgstr "角括弧が付いたテキストがほしいだけなら、開く角括
 msgid ""
 "Note that this is a link, because a link label ends with the first\n"
 "following closing bracket:"
-msgstr "なお以下はリンクですが、それはリンクラベルが最初の後に続く閉じる角括弧で終わるからです。"
+msgstr "なお以下はリンクですが、それはリンクラベルが最初に後に続く閉じる角括弧で終わるからです。"
 
 #. type: paragraph
 #: spec.txt:8469
@@ -6434,7 +6433,7 @@ msgstr "なお以下はリンクですが、それはリンクラベルが最初
 msgid ""
 "Full and collapsed references take precedence over shortcut\n"
 "references:"
-msgstr "完全ないし縮約された参照は簡略参照に優先します。"
+msgstr "完全ないし縮約の参照は簡略参照に優先します。"
 
 #. type: paragraph
 #: spec.txt:8489
@@ -6464,7 +6463,7 @@ msgstr "以下では、ただし、`[foo][bar]`は参照として構文解析さ
 msgid ""
 "Here `[foo]` is not parsed as a shortcut reference, because it\n"
 "is followed by a link label (even though `[bar]` is not defined):"
-msgstr "以下で`[foo]`は簡略参照として構文解析されませんが、それは（`[bar]`が定義されていないとしても）リンクラベルが後に続かないからです。"
+msgstr "以下で`[foo]`は簡略参照として構文解析されませんが、それは（`[bar]`が定義されていないとしても）リンクラベルが後に続くからです。"
 
 #. type: paragraph
 #: spec.txt:8548
@@ -6562,7 +6561,7 @@ msgid ""
 "`<` and `>`. They are parsed as links, with the URL or email address\n"
 "as the link label."
 msgstr ""
-"[自動リンク](@)は`<`と`>`の内部にある絶対URIと電子メールアドレスです。\n"
+"[自動リンク](@)は`<`と`>`の内部に絶対URIや電子メールアドレスがあるものです。\n"
 "リンクとして構文解析され、そのリンクにはURLないし電子メールアドレスがリンクラベルとしてあります。"
 
 #. type: paragraph
@@ -6865,31 +6864,31 @@ msgstr "独自のタグ名が使えます。"
 #: spec.txt:9080
 #, no-wrap
 msgid "Illegal tag names, not parsed as HTML:"
-msgstr "不正なタグ名であって、HTMLとして構文解析されません。"
+msgstr "以下は不正なタグ名であって、HTMLとして構文解析されません。"
 
 #. type: paragraph
 #: spec.txt:9089
 #, no-wrap
 msgid "Illegal attribute names:"
-msgstr "不正な属性名です。"
+msgstr "以下は不正な属性名です。"
 
 #. type: paragraph
 #: spec.txt:9098
 #, no-wrap
 msgid "Illegal attribute values:"
-msgstr "不正な属性値です。"
+msgstr "以下は不正な属性値です。"
 
 #. type: paragraph
 #: spec.txt:9107
 #, no-wrap
 msgid "Illegal whitespace:"
-msgstr "不正な空白です。"
+msgstr "以下は不正な空白です。"
 
 #. type: paragraph
 #: spec.txt:9122
 #, no-wrap
 msgid "Missing whitespace:"
-msgstr "空白が欠けています。"
+msgstr "以下は空白が欠けています。"
 
 #. type: paragraph
 #: spec.txt:9131
@@ -6901,13 +6900,13 @@ msgstr "閉止タグは次の通り。"
 #: spec.txt:9140
 #, no-wrap
 msgid "Illegal attributes in closing tag:"
-msgstr "閉止タグ中の不正な属性です。"
+msgstr "以下には閉止タグ中に不正な属性があります。"
 
 #. type: paragraph
 #: spec.txt:9149
 #, no-wrap
 msgid "Comments:"
-msgstr "コメントです。"
+msgstr "以下はコメントです。"
 
 #. type: paragraph
 #: spec.txt:9169
@@ -6947,7 +6946,7 @@ msgstr "バックスラッシュのエスケープはHTMLの属性では働き�
 msgid ""
 "A block quote can prevent a line from being parsed as inline HTML,\n"
 "even though line breaks are allowed in tags:"
-msgstr "タグで改行が許容されるにしても、ブロック引用は行が行内HTMLとして構文解析されることから防げます。"
+msgstr "タグで改行が許容されるにしても、ブロック引用により行が行内HTMLとして構文解析されることが防がれます。"
 
 #. type: paragraph
 #: spec.txt:9238
@@ -6965,7 +6964,7 @@ msgstr "2つ以上の空白が前に付きブロックの終わりに現れな�
 msgid ""
 "For a more visible alternative, a backslash before the\n"
 "[line ending](#line-ending) may be used instead of two or more spaces:"
-msgstr "より目に見える代替として、[行末](#line-ending)の前のバックスラッシュを2つ以上の空白の代わりに使って構いません。"
+msgstr "より可視的な代替として、[行末](#line-ending)の前のバックスラッシュを2つ以上の空白の代わりに使って構いません。"
 
 #. type: paragraph
 #: spec.txt:9264
@@ -7020,7 +7019,7 @@ msgid ""
 "[line ending](#line-ending) or as a space. The result will be the same in\n"
 "browsers. In the examples here, a [line ending](#line-ending) will be used.)"
 msgstr ""
-"2つ以上の空白やバックスラッシュが前に付いていない（コード区域やHTMLタグの中でない）通常の行末は[柔らかい分割](@)として構文解析されます（柔らかい改行はHTMLでは[行末](#line-ending)としてないし空白として呈示して構いません。\n"
+"2つ以上の空白やバックスラッシュが前に付いていない（コード区域やHTMLタグの中でない）通常の行末は[柔らかい分割](@)として構文解析されます（柔らかい改行はHTMLでは[行末](#line-ending)ないし空白として呈示して構いません。\n"
 "結果はブラウザで同じになるでしょう。\n"
 "以下の例では、[行末](#line-ending)が使われています）。"
 
@@ -7038,7 +7037,7 @@ msgstr "行の終わりと次の行の始めの空白は除かれます。"
 msgid ""
 "A conforming parser may render a soft line break in HTML either as a\n"
 "line ending or as a space."
-msgstr "準拠する構文解析では柔らかい改行をHTMLで行末としてないし空白としてのいずれかで呈示して構いません。"
+msgstr "準拠する構文解析では柔らかい改行をHTMLで行末ないし空白のいずれかとして呈示して構いません。"
 
 #. type: paragraph
 #: spec.txt:9418
@@ -7046,7 +7045,7 @@ msgstr "準拠する構文解析では柔らかい改行をHTMLで行末とし�
 msgid ""
 "A renderer may also provide an option to render soft line breaks\n"
 "as hard line breaks."
-msgstr "呈示器は柔らかい改行と固い改行として呈示するオプションを供しても構いません。"
+msgstr "呈示器は柔らかい改行を固い改行として呈示するオプションを供しても構いません。"
 
 #. type: paragraph
 #: spec.txt:9423
@@ -7121,7 +7120,7 @@ msgid ""
 msgstr ""
 "処理における各時点で、文書は **ブロック** の木として表現されます。\n"
 "木の根は`document`ブロックです。\n"
-"`document`はあらゆる数の他のブロックを **子** として持てます。\n"
+"`document`は任意の数の他のブロックを **子** として持てます。\n"
 "これらの子は、さらに、他のブロックを子として持ちます。\n"
 "ブロックの最後の子は普通 **開いている** と見なされますが、それは入力の後続の行がその内容を変えることがあるという意味です（開いていないブロックは **閉じて** います）。\n"
 "以下は、例えば、取り得る文書の木であり、矢印で示された開いたブロックがあります。"
@@ -7135,7 +7134,7 @@ msgid ""
 "in one or more of the following ways:"
 msgstr ""
 "処理された各行にはこの木における効果があります。\n"
-"行が解析され、その内容によって、文書を1つ以上の以下の方法で変えられます。"
+"行が解析され、その内容によって、文書を以下のうち1つ以上の方法で変えられます。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:9500
@@ -7165,7 +7164,7 @@ msgstr "テキストを木に残っている最後の（最深の）開いたブ
 msgid ""
 "Once a line has been incorporated into the tree in this way,\n"
 "it can be discarded, so input can be read in a stream."
-msgstr "いったん行がこのように木に取り込まれたら、無視することができ、そのため入力はストリームで読めます。"
+msgstr "いったん行がこのように木に取り込まれたら、無視することができ、そのため入力は一度に流して読めます。"
 
 #. type: paragraph
 #: spec.txt:9509
@@ -7191,7 +7190,7 @@ msgstr ""
 "例えば、ブロック引用は`>`の文字を要求します。\n"
 "段落は空でない行を要求します。\n"
 "この段階で開いているブロックのすべてないしごく一部のものに合致するかもしれません。\n"
-"しかしまだ合致していないブロックを閉じられず、それは[不精の継続行](#lazy-continuation-line)があるかもしれないからです。"
+"しかしまだ合致していないブロックは閉じられませんが、それは[不精の継続行](#lazy-continuation-line)があるかもしれないからです。"
 
 #. type: ordered list (period delim) / item / paragraph
 #: spec.txt:9520
@@ -7203,7 +7202,7 @@ msgid ""
 "in step 1 before creating the new block as a child of the last\n"
 "matched container block."
 msgstr ""
-"次に、既存のブロックのための継続の印を消費した後に、新しいブロックの開始（例えばブロック引用のための`>`）を探します。\n"
+"次に、既存のブロック群に対する継続の印を消費した後に、新しいブロックの開始（例えばブロック引用のための`>`）を探します。\n"
 "もし新しいブロックの開始に遭遇したら、工程1で合致していない任意のブロックを閉じて新しいブロックを最後の合致した入れ物ブロックの子として作ります。"
 
 #. type: ordered list (period delim) / item / paragraph
@@ -7235,8 +7234,7 @@ msgid ""
 "one or more reference link definitions.  Any remainder becomes a\n"
 "normal paragraph."
 msgstr ""
-"参照リンク定義は段落が閉じたときに検知されます。\n"
-"つまり累積されたテキストの行は1つ以上の参照リンク定義で始まるかどうか見るために構文解析されます。\n"
+"参照リンク定義は段落が閉じたときに検知されますが、それはつまり累積されたテキストの行は1つ以上の参照リンク定義で始まるかどうか見るために構文解析されるのです。\n"
 "残りのものは何であれ通常の段落になります。"
 
 #. type: paragraph
@@ -7247,13 +7245,11 @@ msgid ""
 "generated by four lines of Markdown:"
 msgstr "この仕組みは上述の木がこの4行のマークダウンにより生成されるさまを考えればわかります。"
 
-# the time at which something is supposed to begin; "they got an early
-# start"; "she knew from the get-go that he was the man for her" 
 #. type: paragraph
 #: spec.txt:9549
 #, no-wrap
 msgid "At the outset, our document model is just"
-msgstr "開始前は、この文書のモデルはこれだけです。"
+msgstr "劈頭第一に、この文書のモデルは以下だけです。"
 
 #. type: paragraph
 #: spec.txt:9555
@@ -7340,7 +7336,7 @@ msgid ""
 "point we have seen all the link reference definitions, so we can\n"
 "resolve reference links as we go."
 msgstr ""
-"それから「木を歩く」、つまりすべてのノードを訪れて、段落と見出しの素の文字列の内容を行内として構文解析します。\n"
+"それから「木を歩き」、つまりすべてのノードを訪れて、段落と見出しの素の文字列の内容を行内として構文解析します。\n"
 "この時点ですべてのリンク参照定義を見てきたため、参照リンクを進みながら解決していけます。"
 
 #. type: paragraph
@@ -7454,7 +7450,7 @@ msgstr "*リンクないし画像の探索*"
 msgid ""
 "Starting at the top of the delimiter stack, we look backwards\n"
 "through the stack for an opening `[` or `![` delimiter."
-msgstr "区切りスタックの一番上から始めて、スタックを逆向きに開いている`[`ないし`![`の区切りを探します。"
+msgstr "区切りスタックの一番上から始めて、スタックを後方へ見て回り開いている`[`ないし`![`の区切りを探します。"
 
 #. type: bullet list / item / paragraph
 #: spec.txt:9702
@@ -7561,7 +7557,7 @@ msgid ""
 "(modulo 3) and to whether the closing delimiter can also be an\n"
 "opener.  Initialize this to `stack_bottom`."
 msgstr ""
-"（3を法とする）閉止の区切り連の長さと閉止の区切りが開始物にもなれるかどうかが添字に付いた、各区切りの種別（`*`、`_`）について`openers_bottom`をたどります。\n"
+"ここでは各区切りの種別（`*`、`_`）について`openers_bottom`を追跡しますが、これらは（3を法とする）閉止の区切り連の長さおよび閉止の区切りが開始物にもなれるかどうかが索引付けされています。\n"
 "これを`stack_bottom`に初期化します。"
 
 #. type: paragraph
@@ -7589,13 +7585,13 @@ msgid ""
 "Now, look back in the stack (staying above `stack_bottom` and\n"
 "the `openers_bottom` for this delimiter type) for the\n"
 "first valid potential opener, where being \"valid\" requires that:"
-msgstr "これで、スタックにおいて（この区切りの種別のための`stack_bottom`と`openers_bottom`の上に留まっている）最初の適正な潜在的な開始物に振り返りますが、ここで「適正」であるには以下が要求されます。"
+msgstr "ここまできたら、スタックにおいて（この区切りの種別についての`stack_bottom`と`openers_bottom`の上に留めつつ）最初の適正な潜在的な開始物を顧みますが、ここで「適正」であるには以下が要求されます。"
 
 #. type: bullet list / item / bullet list / item / paragraph
 #: spec.txt:9756
 #, no-wrap
 msgid "the token is a potential opener; and"
-msgstr "字句が潜在的に開始物であり、そして……"
+msgstr "字句が潜在的に開始物であり、かつ"
 
 #. type: bullet list / item / bullet list / item / paragraph
 #: spec.txt:9758
@@ -7603,7 +7599,7 @@ msgstr "字句が潜在的に開始物であり、そして……"
 msgid ""
 "the token has the same delimiter type as the current potential\n"
 "closer; and"
-msgstr "字句に現在の潜在的な閉止物と同じ区切りの種別があり、そして……"
+msgstr "字句に現在の潜在的な閉止物と同じ区切りの種別があり、かつ"
 
 #. type: bullet list / item / bullet list / item / paragraph
 #: spec.txt:9761
@@ -7617,7 +7613,7 @@ msgstr "以下のいずれかが真であること。"
 msgid ""
 "the closer is not a potential opener and the opener is not a\n"
 "potential closer; or"
-msgstr "閉止物が潜在的な開始物でなく開始物が潜在的な閉止物でない、もしくは……"
+msgstr "閉止物が潜在的な開始物でなく開始物が潜在的な閉止物でない、もしくは"
 
 #. type: bullet list / item / bullet list / item / bullet list / item / paragraph
 #: spec.txt:9766
@@ -7625,7 +7621,7 @@ msgstr "閉止物が潜在的な開始物でなく開始物が潜在的な閉止
 msgid ""
 "the original length of the closing delimiter run is a multiple\n"
 "of 3; or"
-msgstr "閉じる区切りの元の長さが3の倍数であること、もしくは"
+msgstr "閉じる区切りの元の長さが3の倍数である、もしくは"
 
 #. type: bullet list / item / bullet list / item / bullet list / item / paragraph
 #: spec.txt:9769
@@ -7666,7 +7662,7 @@ msgstr "開始物に照応するテキストノードの後に、強調ないし
 msgid ""
 "Remove any delimiters between the opener and closer from\n"
 "the delimiter stack."
-msgstr "開始物と閉止物の間のあらゆる区切りを区切りスタックから除きます。"
+msgstr "開始物と閉止物の間のすべての区切りを区切りスタックから除きます。"
 
 #. type: bullet list / item / bullet list / item / paragraph
 #: spec.txt:9784
@@ -7986,7 +7982,7 @@ msgid ""
 "It does not collapse adjacent bird-track blocks into a single\n"
 "blockquote:"
 msgstr ""
-"隣合う鳥趾付きのブロックを単一のブロック引用に縮約しません（訳註：原文では「鳥趾付き」は \"bird-track\" となっており、このうちの \"bird\" は文芸的Haskellにおける \"Bird style\" を兼ねた造語と思われます。\n"
+"隣合う鳥趾付きのブロックを単一のブロック引用に縮めません（訳註：原文では「鳥趾付き」は \"bird-track\" となっており、このうちの \"bird\" は文芸的Haskellにおける \"Bird style\" を兼ねた造語と思われます。\n"
 "ここで \"Bird\" はHaskellの設計に携わったRichard Bird氏に由来します）。"
 
 #. type: bullet list / item / paragraph
@@ -8061,7 +8057,7 @@ msgid ""
 msgstr ""
 "[CommonMarkを議論するための公開討論の場](https://talk.commonmark.org)があります。\n"
 "質問や自由な議論になる可能性の高いものについてはgithubのイシューの代わりにこちらをお使いください。\n"
-"[githubのイシュートラッカー](https://github.com/commonmark/CommonMark/issues)は単純で、明快で、行動が可能なイシューでのみ使ってください。"
+"[githubのイシュートラッカー](https://github.com/commonmark/CommonMark/issues)は単純で、明快で、着手できるイシューでのみ使ってください。"
 
 #. type: heading2
 #: ../README.md:176
@@ -8200,14 +8196,6 @@ msgstr ""
 
 #. type: Content of: <html><head><meta><script>
 #: ../tools/template.html:101
-#, fuzzy
-#| msgid ""
-#| "$$(document).ready(function() { $$(\"div.example\").each(function(e) "
-#| "{ var t = $$(this).find('code.language-markdown').text(); $$"
-#| "(this).find('a.dingus').click(function(f) { window.open('/dingus/?text=' "
-#| "+ encodeURIComponent(t.replace(/→/g,\"\\t\"))); }); }); $$"
-#| "(\"code.language-markdown\").dblclick(function(e) { window.open('/dingus/?"
-#| "text=' + encodeURIComponent($$(this).text())); }); });"
 msgid ""
 "$$(document).ready(function() { $$(\"div.example\").each(function(e) { var t "
 "= $$(this).find('code.language-markdown').text(); $$"
@@ -8219,10 +8207,11 @@ msgid ""
 msgstr ""
 "$$(document).ready(function() { $$(\"div.example\").each(function(e) { var t "
 "= $$(this).find('code.language-markdown').text(); $$"
-"(this).find('a.dingus').click(function(f) { window.open('/dingus/?text=' + "
-"encodeURIComponent(t.replace(/→/g,\"\\t\"))); }); }); $$(\"code.language-"
-"markdown\").dblclick(function(e) { window.open('/dingus/?text=' + "
-"encodeURIComponent($$(this).text())); }); });"
+"(this).find('a.dingus').click(function(f) { window.open('https://"
+"spec.commonmark.org/dingus/?text=' + encodeURIComponent(t.replace(/→/g,"
+"\"\\t\"))); }); }); $$(\"code.language-markdown\").dblclick(function(e) "
+"{ window.open('/dingus/?text=' + encodeURIComponent($$"
+"(this).text())); }); });"
 
 #. type: Content of: <html><body><div>
 #: ../tools/template.html:117
