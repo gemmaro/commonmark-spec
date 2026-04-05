@@ -12,7 +12,9 @@ best practice: 最良慣行。最善慣行。ベストプラクティス。一�
 bullet list: 中黒リスト。箇条書きとするのが普通ですが、箇条書きはより広い概念で順序付きリストを含みそうなイメージがあります。
 bullet: 中黒。行頭文字。https://support.microsoft.com/ja-jp/office/%E6%96%B0%E3%81%97%E3%81%84%E8%A1%8C%E9%A0%AD%E6%96%87%E5%AD%97-%E6%95%B0%E5%AD%97-%E3%81%8A%E3%82%88%E3%81%B3%E8%A4%87%E6%95%B0%E3%83%AC%E3%83%99%E3%83%AB%E3%81%AE%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E5%AE%9A%E7%BE%A9%E3%81%97%E3%81%BE%E3%81%99-6c06ef65-27ad-4893-80c9-0b944cb81f5f
 break: 分割
+bind: 結び付く。結束
 
+case fold: 折り畳み
 chunk: かたまり、塊
 characters: 1文字以上の文字。string of charactersのような場合に使います
 class: クラス。ユニコードの文字クラス
@@ -55,7 +57,7 @@ following: 後に続く
 flanking: ~側の。側面とか脇とか。TODO: 右接などとするのもあり。
 final: 末尾。initial and finalは「先頭と末尾」のようにあたまとしっぽを揃えます。
 
-grouping: 結び付き。集合化
+grouping: 結び付き。集合化。結束。
 
 hard-wrapped: 固く折り返された
 hard line break: 固い改行。強いだとstrong emphasisとかぶります。
@@ -135,6 +137,7 @@ thus: したがって。thereforeは論理的な帰結をあらわすらしい
 tight: 窮屈
 top: 一番上
 typically: 通例として
+take precedence: 優先する。優越する
 
 unambiguously: 曖昧さなく。構文解析では曖昧さが問題となるため、明確に、の読み替えは避けます
 uniformity: 一律性
