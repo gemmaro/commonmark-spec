@@ -14,12 +14,18 @@
 # CommonMark(日本語訳) by Anno Kagurazaka Anno Kagurazaka (AnMint)
 # <h.work.deputy@gmail.com>, 2018,
 # <https://github.com/Anmint/CommonMark-ja>.
+#
+# 訳す上での注意点：
+#
+# - 見出しとキーワードとでかぶる場合があります。
+#   原文では複数形と単数形となっているため、日本語では複数形に「~について」を付けるようにしています。
+#   これはHTMLのリンクが機能するようにするためです。
 msgid ""
 msgstr ""
 "Project-Id-Version: commonmark-ja\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-05 08:56+0900\n"
-"PO-Revision-Date: 2026-04-05 08:46+0900\n"
+"PO-Revision-Date: 2026-04-05 09:18+0900\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
