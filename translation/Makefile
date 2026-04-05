@@ -6,8 +6,6 @@ all: ${outdir}/spec.txt \
 		ja/tools/make_spec.lua \
 		refs.ja.yaml
 	${MAKE} --directory ja spec.html
-	ssh pi mkdir -p /srv/www/CommonMark
-	rsync -av ./ja/spec.html pi:/srv/www/CommonMark/spec.html
 .PHONY: all
 
 ja/tools/make_spec.lua: ../tools/make_spec.lua
