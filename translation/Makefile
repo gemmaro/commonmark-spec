@@ -1,3 +1,4 @@
+PO4A ?= po4a
 outdir	:=	ja
 
 all: ${outdir}/spec.txt \
@@ -25,7 +26,7 @@ ${outdir}/spec.txt: po/ja.po po/en.pot po4a.cfg
 translate: credit.md
 	cp ../spec.txt spec.txt
 	lua ../tools/make_spec.lua refblock < ../spec.txt >> spec.txt
-	po4a po4a.cfg
+	$(PO4A) po4a.cfg
 .PHONY: translate
 
 po/en.pot:

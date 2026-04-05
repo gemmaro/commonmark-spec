@@ -1,4 +1,11 @@
 #!/bin/sh
 set -eu
+
 luarocks install --local lcmark
-luarocks install --local lyaml "YAML_LIBDIR=$YAML_LIBDIR"
+
+if [ "${USE_GUIX:-}" = yes ]
+then
+    luarocks install --local lyaml "YAML_LIBDIR=$YAML_LIBDIR"
+else
+    luarocks install --local lyaml
+fi
