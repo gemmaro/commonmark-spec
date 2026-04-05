@@ -4,14 +4,14 @@ local lyaml = require('lyaml')
 
 local format = arg[1] or 'html'
 
--- io.stderr:write(os.getenv("PWD"))
+local jarefs = {}
 local jarefs_file = io.open(os.getenv("REFS_JA_PATH", "r"))
-if not jarefs_file then
-   io.stderr:write("WARNING: ja refs file not open\n")
-   os.exit(1)
+if jarefs_file then
+   jarefs = lyaml.load(jarefs_file:read("a"))
+   jarefs_file:close()
+else
+   io.stderr:write("WARNING: ja refs file not open.  Please rerun\n")
 end
-local jarefs = lyaml.load(jarefs_file:read("a")) or {}
-jarefs_file:close()
 
 local trim = function(s)
   return s:gsub("^%s+",""):gsub("%s+$","")
