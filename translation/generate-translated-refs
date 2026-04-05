@@ -10,4 +10,3 @@ doc&.each do |entry|
   refs[ja] = entry["id"]
 end
 puts YAML.dump(refs)
-# puts refs.map{ |ja,id| "[#{ja}]: #{id}" }.join("\n")
