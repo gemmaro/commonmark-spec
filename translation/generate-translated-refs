@@ -1,13 +1,8 @@
 #!/usr/bin/env ruby
 require "yaml"
 
-doc = {}
-path = File.join(__dir__, "refs.translatable.ja.yaml")
-if File.file?(path)
-  doc.replace(YAML.load_file(path))
-end
 refs = {}
-doc.each do |entry|
+YAML.load($stdin.read).each do |entry|
   # entry has en, id, ja
   ja = entry["ja"]
   refs[ja] and raise "duplicated entry: #{entry.inspect}"

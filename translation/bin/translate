@@ -1,0 +1,55 @@
+#!/bin/sh
+set -eu
+
+mkdir -p translation/ja
+cp Makefile translation/ja/Makefile
+
+mkdir -p translation/ja/tools
+patch --output=translation/ja/tools/make_spec.lua \
+      --strip=1 \
+      < translation/make_spec.lua.patch
+
+mkdir -p translation/tmp
+patch --output=translation/tmp/make_spec.add_refyaml.lua \
+      --strip=1 \
+      < translation/make_spec.add_refyaml.patch
+
+lua translation/tmp/make_spec.add_refyaml.lua \
+    refyaml \
+    < spec.txt \
+    > translation/refs.yaml
+
+lua translation/tool/generate_translatable_refs.lua \
+    < translation/refs.yaml \
+    > translation/refs.translatable.yaml
+
+[ -f translation/po.refs/en.pot ] || touch translation/po.refs/en.pot
+po4a translation/po4a.refs.cfg
+msgcat --sort-output \
+        --output-file=translation/po.refs/ja.po \
+        translation/po.refs/ja.po
+
+./translation/generate-translated-refs \
+    < translation/refs.translatable.ja.yaml \
+    > translation/refs.ja.yaml
+
+cp spec.txt translation/spec.txt
+(
+    set -eu
+
+    cd translation/ja/
+    lua tools/make_spec.lua \
+        refblock \
+        < ../../spec.txt \
+        >> ../spec.txt
+)
+
+msgcat --use-first \
+       --output-file=translation/po/ja.po \
+       translation/po.refs/ja.po \
+       translation/po/ja.po
+[ -f translation/po/en.pot ] || touch translation/po/en.pot
+po4a translation/po4a.cfg
+
+make --directory translation/ja \
+     spec.html

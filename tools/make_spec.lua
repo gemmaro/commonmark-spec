@@ -1,17 +1,7 @@
 local lcmark = require('lcmark')
 local cmark = require('cmark')
-local lyaml = require('lyaml')
 
 local format = arg[1] or 'html'
-
-local jarefs = {}
-local jarefs_file = io.open(os.getenv("REFS_JA_PATH", "r"))
-if jarefs_file then
-   jarefs = lyaml.load(jarefs_file:read("a"))
-   jarefs_file:close()
-else
-   io.stderr:write("WARNING: ja refs file not open.  Please rerun\n")
-end
 
 local trim = function(s)
   return s:gsub("^%s+",""):gsub("%s+$","")
@@ -22,15 +12,7 @@ local warn = function(s)
 end
 
 local to_identifier = function(s)
-   s = trim(s)
-   id = jarefs[s]
-   if id then
-      return id
-   end
-   if s:find('[^\0-\127]') then
-      warn("not ASCII: " .. s)
-   end
-   return s:lower():gsub('[^%w]+', ' '):gsub('[%s]+', '-')
+  return trim(s):lower():gsub('[^%w]+', ' '):gsub('[%s]+', '-')
 end
 
 local render_number = function(tbl)
@@ -65,7 +47,6 @@ local extract_references = function(doc)
       local ident = to_identifier(label)
       if refs[label] then
         warn("duplicate reference " .. label)
-        os.exit(1)
       end
       refs[label] = ident
       if idents[ident] then
@@ -235,11 +216,11 @@ local create_anchors = function(doc, meta, to)
         local examplenum_div = make_html_block('div', {{'class', 'examplenum'}})
         local interact_link = make_html_inline('a', {{'class', 'dingus'},
                     {'title', 'open in interactive dingus'}})
-        cmark.node_append_child(interact_link, make_text("やってみよう"))
+        cmark.node_append_child(interact_link, make_text("Try It"))
         local examplenum_link = cmark.node_new(cmark.NODE_LINK)
         cmark.node_set_url(examplenum_link, '#example-' .. tostring(example))
         cmark.node_append_child(examplenum_link,
-                                make_text("例 " .. tostring(example)))
+                                make_text("Example " .. tostring(example)))
         cmark.node_append_child(examplenum_div, examplenum_link)
         if format == 'html' then
           cmark.node_append_child(examplenum_div, interact_link)
@@ -275,11 +256,6 @@ end
 local inp = io.read("*a")
 local doc1 = cmark.parse_string(inp, cmark.OPT_DEFAULT)
 local refs = extract_references(doc1)
-if format == 'refyaml' then
-   local lyaml = require('lyaml')
-   print(lyaml.dump({refs}))
-   os.exit(0)
-end
 local refblock = '\n'
 local pluralrefblock = ''
 for lab, ident in pairs(refs) do
@@ -291,10 +267,6 @@ for lab, ident in pairs(refs) do
   end
 end
 refblock = refblock .. pluralrefblock
-if format == 'refblock' then
-  print(refblock)
-  os.exit(0)
-end
 -- append references and parse again
 local contents, meta, msg  = lcmark.convert(inp .. refblock, format,
                              { smart = true,

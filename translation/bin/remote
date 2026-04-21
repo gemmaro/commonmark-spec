@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+
+git remote add mainstream \
+    git@github.com:commonmark/commonmark-spec.git \
+    2>/dev/null \
+    || true
+git remote add fork \
+    git@github.com:gemmaro/commonmark-spec.git \
+    2>/dev/null \
+    || true

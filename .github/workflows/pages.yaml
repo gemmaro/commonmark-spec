@@ -24,7 +24,13 @@ jobs:
         run: |
           sudo apt update
           sudo apt install --yes \
-            lua5.3 luarocks liblua5.3-dev libyaml-dev libcmark-dev cpanminus po4a
+            lua5.3 \
+            luarocks \
+            liblua5.3-dev \
+            libyaml-dev \
+            libcmark-dev \
+            cpanminus \
+            po4a
 
       - name: Install CommonMark Perl module
         run: |
@@ -40,17 +46,12 @@ jobs:
           ruby-version: '3.4'
 
       - name: Build pages
-        # Run twice to correctly reflect link references
         run: |
           eval "$(luarocks path --bin)"
-          export REFS_JA_PATH=$PWD/translation/refs.ja.yaml
-          echo "---\n" > translation/refs.translatable.yaml
           git clone https://github.com/mquinson/po4a
           export PERL5LIB="$PWD/po4a/lib:$PERL5LIB"
           export PATH="$PWD/po4a:$PATH"
-          make --directory translation
-          touch translation/po4a.cfg
-          make --directory translation
+          ./translation/bin/translate
           mkdir -p tmp-for-github-pages
           mv translation/ja/spec.html tmp-for-github-pages/index.html
 

@@ -1,0 +1,23 @@
+diff --git a/tools/make_spec.lua b/tools/make_spec.lua
+index 1ff19d9..865a845 100644
+--- a/tools/make_spec.lua
++++ b/tools/make_spec.lua
+@@ -1,5 +1,6 @@
+ local lcmark = require('lcmark')
+ local cmark = require('cmark')
++local lyaml = require('lyaml')
+ 
+ local format = arg[1] or 'html'
+ 
+@@ -256,6 +275,11 @@ end
+ local inp = io.read("*a")
+ local doc1 = cmark.parse_string(inp, cmark.OPT_DEFAULT)
+ local refs = extract_references(doc1)
++if format == 'refyaml' then
++   local lyaml = require('lyaml')
++   print(lyaml.dump({refs}))
++   os.exit(0)
++end
+ local refblock = '\n'
+ local pluralrefblock = ''
+ for lab, ident in pairs(refs) do

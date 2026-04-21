@@ -1,0 +1,847 @@
+# CommonMark Specの日本語訳
+# Copyright (C) 2023-2026 gemmaro <gemmaro.dev@gmail.com>.
+# This file is distributed under the same license as the CommonMark Spec.
+#
+# 先行訳：
+#
+# CommonMark spec日本語訳 - Japanese translation of CommonMark spec by
+# Yuya.Nishida <twitter@nishidayuya>, 2014,
+# <https://github.com/nishidayuya/CommonMark-ja_JP>.
+#
+# CommonMark-ja by Takeshi KOMIYA Takeshi KOMIYA <i.tkomiya@gmail.com>,
+# 2019, 2020, <https://github.com/tk0miya/CommonMark-ja>.
+#
+# CommonMark(日本語訳) by Anno Kagurazaka Anno Kagurazaka (AnMint)
+# <h.work.deputy@gmail.com>, 2018,
+# <https://github.com/Anmint/CommonMark-ja>.
+#
+# 訳す上での注意点：
+#
+# - 見出しとキーワードとでかぶる場合があります。
+#   原文では複数形と単数形となっているため、日本語では複数形に「~について」を付けるようにしています。
+#   これはHTMLのリンクが機能するようにするためです。
+msgid ""
+msgstr ""
+"Project-Id-Version: commonmark-ja\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-22 20:03+0900\n"
+"PO-Revision-Date: 2026-05-22 19:36+0900\n"
+"Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "ASCII control character"
+msgstr "アスキーの制御文字"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "ASCII punctuation character"
+msgstr "アスキーの約物文字"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "ATX heading"
+msgstr "ATX見出し"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "ATX headings"
+msgstr "ATX見出しについて"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "About this document"
+msgstr "本文書について"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "An algorithm for parsing nested emphasis and links"
+msgstr "入れ子の強調とリンクを構文解析するためのアルゴリズム"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Appendix: A parsing strategy"
+msgstr "補遺：構文解析の戦略"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Autolink"
+msgstr "自動リンク"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Autolinks"
+msgstr "自動リンクについて"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Backslash escapes"
+msgstr "バックスラッシュのエスケープ"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Blank lines"
+msgstr "空白行"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Block quotes"
+msgstr "ブロック引用"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Blocks and inlines"
+msgstr "ブロックと行内"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "CDATA section"
+msgstr "CDATA節"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Characters and lines"
+msgstr "文字と行"
+
+# あえて「コード区域」のみにしません
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Code spans"
+msgstr "コード区域について"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Container blocks"
+msgstr "入れ物ブロック"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Container blocks and leaf blocks"
+msgstr "入れ物ブロックと葉ブロック"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Decimal numeric character references"
+msgstr "10進数の数値的な文字参照"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Emphasis and strong emphasis"
+msgstr "強調と強い強調"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Entity and numeric character references"
+msgstr "実体と、数値による文字参照"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Entity references"
+msgstr "実体参照"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Fenced code blocks"
+msgstr "有塀コードブロックについて"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "HTML block"
+msgstr "HTMLブロック"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "HTML blocks"
+msgstr "HTMLブロックについて"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "HTML comment"
+msgstr "HTMLコメント"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "HTML tag"
+msgstr "HTMLタグ"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Hard line breaks"
+msgstr "固い改行について"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Hexadecimal numeric character references"
+msgstr "16進数の数値的な文字参照"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Images"
+msgstr "画像"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Indented code blocks"
+msgstr "字下げコードブロックについて"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Inlines"
+msgstr "行内要素"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Insecure characters"
+msgstr "安全でない文字"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Introduction"
+msgstr "はしがき"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Leaf blocks"
+msgstr "葉ブロック"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Link reference definitions"
+msgstr "リンク参照定義について"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Links"
+msgstr "リンク"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "List items"
+msgstr "リスト項目"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Lists"
+msgstr "リストについて"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Motivation"
+msgstr "狙い"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Overview"
+msgstr "概観"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Paragraph continuation text"
+msgstr "段落継続テキスト"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Paragraphs"
+msgstr "段落について"
+
+# any distinct time period in a sequence of events; "we are in a
+# transitional stage in which many former ideas must be revised or
+# rejected"
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Phase 1: block structure"
+msgstr "段階1：ブロックの構造"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Phase 2: inline structure"
+msgstr "段階2：行内の構造"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Precedence"
+msgstr "優先順位"
+
+# 前置き<
+# denoting an action or event preceding or in preparation for something
+# more important; designed to orient or acquaint with a situation before
+# proceeding; "a preliminary investigation"
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Preliminaries"
+msgstr "下準備"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Raw HTML"
+msgstr "素のHTML"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Setext headings"
+msgstr "Setext見出し"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Soft line breaks"
+msgstr "柔らかい改行"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Tabs"
+msgstr "タブ"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Textual content"
+msgstr "テキストの内容"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Thematic breaks"
+msgstr "主題分割について"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "URI autolink"
+msgstr "URIの自動リンク"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Unicode punctuation character"
+msgstr "ユニコードの約物文字"
+
+# 文字はつけません
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Unicode whitespace"
+msgstr "ユニコードの空白"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Unicode whitespace character"
+msgstr "ユニコードの空白文字"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "What is Markdown?"
+msgstr "マークダウンとは"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "Why is a spec needed?"
+msgstr "なぜ仕様が必要とされているのか"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "absolute URI"
+msgstr "絶対URI"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "attribute"
+msgstr "属性"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "attribute name"
+msgstr "属性名"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "attribute value"
+msgstr "属性値"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "attribute value specification"
+msgstr "属性値の指定"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "backtick string"
+msgstr "抑音符の文字列"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "blank line"
+msgstr "空行"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "block quote marker"
+msgstr "ブロック引用の印"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "blocks"
+msgstr "ブロック"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "bullet list"
+msgstr "中黒リスト"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "bullet list marker"
+msgstr "中黒リストの印"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "can close emphasis"
+msgstr "強調の閉止可能"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "can close strong emphasis"
+msgstr "強い強調の閉止可能"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "can open emphasis"
+msgstr "強調の開始可能"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "can open strong emphasis"
+msgstr "強い強調の開始可能"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "character"
+msgstr "文字"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "closing tag"
+msgstr "閉止タグ"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "code fence"
+msgstr "コード塀"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "code span"
+msgstr "コード区域"
+
+# To fall together suddenly, as the sides of a hollow vessel; to close
+# by falling or shrinking together; to have the sides or parts of (a
+# thing) fall in together, or be crushed in together; as, “a flue in
+# the boiler of a steam engine sometimes collapses”.
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "collapsed reference link"
+msgstr "縮約参照リンク"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "declaration"
+msgstr "宣言"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "delimiter run"
+msgstr "区切り連"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "delimiter stack"
+msgstr "区切りスタック"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "double-quoted attribute value"
+msgstr "二重引用符の属性値"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "email address"
+msgstr "電子メールアドレス"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "email autolink"
+msgstr "電子メールの自動リンク"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "end condition"
+msgstr "終了条件"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "fenced code block"
+msgstr "有塀コードブロック"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "full reference link"
+msgstr "完全参照リンク"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "hard line break"
+msgstr "固い改行"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "image description"
+msgstr "画像の説明"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "indented chunk"
+msgstr "字下げされた塊"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "indented code block"
+msgstr "字下げコードブロック"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "info string"
+msgstr "情報文字列"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "inline"
+msgstr "行内"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "inline link"
+msgstr "行内リンク"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "lazy continuation line"
+msgstr "不精な継続行"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "left-flanking delimiter run"
+msgstr "左側の区切り連"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "line"
+msgstr "行"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "line ending"
+msgstr "行末"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "link destination"
+msgstr "リンク先"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "link label"
+msgstr "リンクラベル"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "link reference definition"
+msgstr "リンク参照定義"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "link text"
+msgstr "リンクテキスト"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "link title"
+msgstr "リンク題"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "list"
+msgstr "リスト"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "list marker"
+msgstr "リストの印"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "look for link or image"
+msgstr "リンクないし画像の探索"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "loose"
+msgstr "ゆるやか"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "matches"
+msgstr "合致"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "of the same type"
+msgstr "同じ型を持つ"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "open tag"
+msgstr "開始タグ"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "ordered list"
+msgstr "順序付きリスト"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "ordered list marker"
+msgstr "順序付きリストの印"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "paragraph"
+msgstr "段落"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "principle of uniformity"
+msgstr "一律性の原則"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "process emphasis"
+msgstr "強調の処理"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "processing instruction"
+msgstr "処理命令"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "reference link"
+msgstr "参照リンク"
+
+# To stand at the flank or side of; to border upon.
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "right-flanking delimiter run"
+msgstr "右側の区切り連"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "scheme"
+msgstr "スキーム"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "setext heading"
+msgstr "setext見出し"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "setext heading underline"
+msgstr "setext見出しの下線"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "shortcut reference link"
+msgstr "簡略参照リンク"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "single-quoted attribute value"
+msgstr "単一引用符の属性値"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "softbreak"
+msgstr "柔らかい分割"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "space"
+msgstr "空白文字"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "start condition"
+msgstr "開始条件"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "start number"
+msgstr "開始番号"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "tab"
+msgstr "タブ文字"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "tag name"
+msgstr "タグ名"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "thematic break"
+msgstr "主題分割"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "tight"
+msgstr "窮屈"
+
+#. type: Hash Value: ja
+#: translation/refs.translatable.yaml:1
+#, no-wrap
+msgid "unquoted attribute value"
+msgstr "引用符のない属性値"
