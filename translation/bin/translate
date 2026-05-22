@@ -12,17 +12,17 @@ done < translation/LINGUAS
 mkdir -p translation/tmp
 patch --output=translation/tmp/make_spec.add_refyaml.lua \
       --strip=1 \
-      < translation/src/make_spec.lua.add_refyaml.patch
+      < translation/tools/make_spec.lua.add_refyaml.patch
 patch --output=translation/tmp/make_spec.add_refblock.lua \
       --strip=1 \
-      < translation/src/make_spec.lua.add_refblock.patch
+      < translation/tools/make_spec.lua.add_refblock.patch
 
 lua translation/tmp/make_spec.add_refyaml.lua \
     refyaml \
     < spec.txt \
     > translation/tmp/refs.yaml
 
-lua translation/tool/generate_translatable_refs.lua \
+lua translation/tools/generate_translatable_refs.lua \
     < translation/tmp/refs.yaml \
     > translation/tmp/refs.translatable.yaml
 
@@ -37,14 +37,14 @@ do
            --output-file="translation/po.refs/$code.po" \
            "translation/po.refs/$code.po"
 
-    lua translation/tool/generate_translated_refs.lua \
+    lua translation/tools/generate_translated_refs.lua \
         < "translation/tmp/refs.translatable.$code.yaml" \
         > "translation/tmp/refs.$code.yaml"
 
     mkdir -p "translation/build/$code/tools"
     patch --output="translation/build/$code/tools/make_spec.lua" \
           --strip=1 \
-          < "translation/src/make_spec.lua.$code.patch"
+          < "translation/tools/make_spec.lua.$code.patch"
 
     cp spec.txt "translation/tmp/spec.$code.txt"
     (
@@ -73,4 +73,4 @@ do
          spec.html
 done
 
-lua translation/tool/generate_webpages.lua
+lua translation/tools/generate_webpages.lua

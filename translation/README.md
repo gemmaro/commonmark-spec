@@ -26,7 +26,7 @@ code is `$LANG`:
 * Add a gettext PO file at `translation/po/$LANG.po`.
 * Add an entry for your language in `translation/po4a.cfg` between `#
   Spec begin ...` and `# Spec end ...`
-* Add `translation/src/make_spec.lua.$LANG.patch`
+* Add `translation/tools/make_spec.lua.$LANG.patch`
 * Add `translation/addendum/credit.$LANG.md`
 * Run `./translation/bin/translate` to update
   `translation/po/$LANG.po`

@@ -1,6 +1,6 @@
 local lcmark = require("lcmark")
 
-local file = io.open("translation/src/template.html", "r")
+local file = io.open("translation/tools/template.html", "r")
 local template = file:read("a")
 file:close()
 
@@ -8,7 +8,7 @@ file:close()
 
 local lang = "en"
 local title = "Translations for the CommonMark Spec"
-local file = io.open("translation/src/index.html", "r")
+local file = io.open("translation/tools/index.html", "r")
 local body = file:read("a")
 file:close()
 local html = template:gsub("%$lang%$", lang)
