@@ -13,6 +13,9 @@ mkdir -p translation/tmp
 patch --output=translation/tmp/make_spec.add_refyaml.lua \
       --strip=1 \
       < translation/src/make_spec.lua.add_refyaml.patch
+patch --output=translation/tmp/make_spec.add_refblock.lua \
+      --strip=1 \
+      < translation/src/make_spec.lua.add_refblock.patch
 
 lua translation/tmp/make_spec.add_refyaml.lua \
     refyaml \
@@ -48,7 +51,7 @@ do
         set -eu
 
         cd "translation/build/$code/"
-        lua tools/make_spec.lua \
+        lua ../../tmp/make_spec.add_refblock.lua \
             refblock \
             < ../../../spec.txt \
             >> "../../tmp/spec.$code.txt"

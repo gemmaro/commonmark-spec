@@ -52,14 +52,3 @@ index 1ff19d9..865a845 100644
          cmark.node_append_child(examplenum_div, examplenum_link)
          if format == 'html' then
            cmark.node_append_child(examplenum_div, interact_link)
-@@ -267,6 +291,10 @@ for lab, ident in pairs(refs) do
-   end
- end
- refblock = refblock .. pluralrefblock
-+if format == 'refblock' then
-+  print(refblock)
-+  os.exit(0)
-+end
- -- append references and parse again
- local contents, meta, msg  = lcmark.convert(inp .. refblock, format,
-                              { smart = true,
