@@ -38,14 +38,6 @@ index 1ff19d9..865a845 100644
  end
  
  local render_number = function(tbl)
-@@ -47,6 +65,7 @@ local extract_references = function(doc)
-       local ident = to_identifier(label)
-       if refs[label] then
-         warn("duplicate reference " .. label)
-+        os.exit(1)
-       end
-       refs[label] = ident
-       if idents[ident] then
 @@ -216,11 +235,11 @@ local create_anchors = function(doc, meta, to)
          local examplenum_div = make_html_block('div', {{'class', 'examplenum'}})
          local interact_link = make_html_inline('a', {{'class', 'dingus'},

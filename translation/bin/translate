@@ -7,12 +7,12 @@ cp Makefile translation/ja/Makefile
 mkdir -p translation/ja/tools
 patch --output=translation/ja/tools/make_spec.lua \
       --strip=1 \
-      < translation/make_spec.lua.patch
+      < translation/src/make_spec.lua.ja.patch
 
 mkdir -p translation/tmp
 patch --output=translation/tmp/make_spec.add_refyaml.lua \
       --strip=1 \
-      < translation/make_spec.add_refyaml.patch
+      < translation/src/make_spec.lua.add_refyaml.patch
 
 lua translation/tmp/make_spec.add_refyaml.lua \
     refyaml \
