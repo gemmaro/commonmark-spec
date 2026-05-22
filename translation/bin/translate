@@ -1,8 +1,13 @@
 #!/bin/sh
 set -eu
 
-# Language codes to translate.
-set -- ja
+while IFS= read -r code
+do
+    case $code in
+        '#'*|'') continue ;;
+    esac
+    set -- "$@" "$code"
+done < translation/LINGUAS
 
 mkdir -p translation/tmp
 patch --output=translation/tmp/make_spec.add_refyaml.lua \
@@ -33,8 +38,8 @@ do
         < "translation/tmp/refs.translatable.$code.yaml" \
         > "translation/tmp/refs.$code.yaml"
 
-    mkdir -p "translation/$code/tools"
-    patch --output="translation/$code/tools/make_spec.lua" \
+    mkdir -p "translation/build/$code/tools"
+    patch --output="translation/build/$code/tools/make_spec.lua" \
           --strip=1 \
           < "translation/src/make_spec.lua.$code.patch"
 
@@ -42,11 +47,11 @@ do
     (
         set -eu
 
-        cd "translation/$code/"
+        cd "translation/build/$code/"
         lua tools/make_spec.lua \
             refblock \
-            < ../../spec.txt \
-            >> "../tmp/spec.$code.txt"
+            < ../../../spec.txt \
+            >> "../../tmp/spec.$code.txt"
     )
 
     msgcat --use-first \
@@ -59,8 +64,8 @@ po4a translation/po4a.cfg
 
 for code in "$@"
 do
-    cp Makefile "translation/$code/Makefile"
+    cp Makefile "translation/build/$code/Makefile"
 
-    make --directory "translation/$code" \
+    make --directory "translation/build/$code" \
          spec.html
 done

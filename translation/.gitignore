@@ -1,8 +1,4 @@
-/ja/Makefile
-/ja/README.md
-/ja/spec.html
-/ja/spec.txt
-/ja/tools/
+/build/
+/po.refs/en.pot
 /po/*.pot
 /tmp/
-/po.refs/en.pot

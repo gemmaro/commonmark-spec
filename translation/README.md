@@ -21,15 +21,13 @@ installed.
 To add your language, follow the steps below. Assuming your language
 code is `$LANG`:
 
-* Add `$LANG` to the line starting with `set --` in
-  `translation/bin/translate`. E.g. `set -- ja $LANG`
+* Add `$LANG` to the `translation/LINGUAS` file
 * Add a gettext PO file at `translation/po.refs/$LANG.po`.
 * Add a gettext PO file at `translation/po/$LANG.po`.
 * Add an entry for your language in `translation/po4a.cfg` between `#
   Spec begin ...` and `# Spec end ...`
 * Add `translation/src/make_spec.lua.$LANG.patch`
 * Add `translation/addendum/credit.$LANG.md`
-* Update the Git ignore entries in `translation/.gitignore`
 * Run `./translation/bin/translate` to update
   `translation/po/$LANG.po`
 * Translate!  Edit `translation/po/$LANG.po` and

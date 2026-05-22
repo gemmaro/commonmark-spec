@@ -48,7 +48,14 @@ jobs:
           export PATH="$PWD/po4a:$PATH"
           ./translation/bin/translate
           mkdir -p tmp-for-github-pages
-          mv translation/ja/spec.html tmp-for-github-pages/index.html
+          while IFS= read -r code
+          do
+              case $code in
+                  '#'*|'') continue ;;
+              esac
+              mv "translation/build/$code/spec.html" \
+                 "tmp-for-github-pages/spec.$code.html"
+          done < translation/LINGUAS
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
