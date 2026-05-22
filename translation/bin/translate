@@ -29,7 +29,7 @@ msgcat --sort-output \
         --output-file=translation/po.refs/ja.po \
         translation/po.refs/ja.po
 
-./translation/generate-translated-refs \
+lua translation/tool/generate_translated_refs.lua \
     < translation/refs.translatable.ja.yaml \
     > translation/refs.ja.yaml
 

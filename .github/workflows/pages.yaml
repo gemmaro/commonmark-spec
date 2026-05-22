@@ -40,11 +40,6 @@ jobs:
         run: |
           ./translation/bin/install
 
-      - name: Install Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.4'
-
       - name: Build pages
         run: |
           eval "$(luarocks path --bin)"
