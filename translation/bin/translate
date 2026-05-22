@@ -17,10 +17,10 @@ patch --output=translation/tmp/make_spec.add_refyaml.lua \
 lua translation/tmp/make_spec.add_refyaml.lua \
     refyaml \
     < spec.txt \
-    > translation/refs.yaml
+    > translation/tmp/refs.yaml
 
 lua translation/tool/generate_translatable_refs.lua \
-    < translation/refs.yaml \
+    < translation/tmp/refs.yaml \
     > translation/refs.translatable.yaml
 
 [ -f translation/po.refs/en.pot ] || touch translation/po.refs/en.pot

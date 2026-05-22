@@ -1,6 +1,5 @@
 /ja/Makefile
 /ja/README.md
-/ja/spec.cmark.txt
 /ja/spec.html
 /ja/spec.txt
 /ja/tools/
@@ -8,7 +7,6 @@
 /refs.ja.yaml
 /refs.translatable.ja.yaml
 /refs.translatable.yaml
-/refs.yaml
 /spec.txt
 /tmp/
 /po.refs/en.pot
