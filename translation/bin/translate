@@ -1,14 +1,6 @@
 #!/bin/sh
 set -eu
 
-mkdir -p translation/ja
-cp Makefile translation/ja/Makefile
-
-mkdir -p translation/ja/tools
-patch --output=translation/ja/tools/make_spec.lua \
-      --strip=1 \
-      < translation/src/make_spec.lua.ja.patch
-
 mkdir -p translation/tmp
 patch --output=translation/tmp/make_spec.add_refyaml.lua \
       --strip=1 \
@@ -33,7 +25,12 @@ lua translation/tool/generate_translated_refs.lua \
     < translation/tmp/refs.translatable.ja.yaml \
     > translation/tmp/refs.ja.yaml
 
-cp spec.txt translation/spec.txt
+mkdir -p translation/ja/tools
+patch --output=translation/ja/tools/make_spec.lua \
+      --strip=1 \
+      < translation/src/make_spec.lua.ja.patch
+
+cp spec.txt translation/tmp/spec.ja.txt
 (
     set -eu
 
@@ -41,7 +38,7 @@ cp spec.txt translation/spec.txt
     lua tools/make_spec.lua \
         refblock \
         < ../../spec.txt \
-        >> ../spec.txt
+        >> ../tmp/spec.ja.txt
 )
 
 msgcat --use-first \
@@ -50,6 +47,8 @@ msgcat --use-first \
        translation/po/ja.po
 [ -f translation/po/en.pot ] || touch translation/po/en.pot
 po4a translation/po4a.cfg
+
+cp Makefile translation/ja/Makefile
 
 make --directory translation/ja \
      spec.html
