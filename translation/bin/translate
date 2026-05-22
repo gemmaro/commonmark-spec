@@ -21,7 +21,7 @@ lua translation/tmp/make_spec.add_refyaml.lua \
 
 lua translation/tool/generate_translatable_refs.lua \
     < translation/tmp/refs.yaml \
-    > translation/refs.translatable.yaml
+    > translation/tmp/refs.translatable.yaml
 
 [ -f translation/po.refs/en.pot ] || touch translation/po.refs/en.pot
 po4a translation/po4a.refs.cfg
