@@ -1,6 +1,9 @@
 #!/bin/sh
 set -eu
 
+# Language codes to translate.
+set -- ja
+
 mkdir -p translation/tmp
 patch --output=translation/tmp/make_spec.add_refyaml.lua \
       --strip=1 \
@@ -16,39 +19,48 @@ lua translation/tool/generate_translatable_refs.lua \
     > translation/tmp/refs.translatable.yaml
 
 [ -f translation/po.refs/en.pot ] || touch translation/po.refs/en.pot
-po4a translation/po4a.refs.cfg
-msgcat --sort-output \
-        --output-file=translation/po.refs/ja.po \
-        translation/po.refs/ja.po
-
-lua translation/tool/generate_translated_refs.lua \
-    < translation/tmp/refs.translatable.ja.yaml \
-    > translation/tmp/refs.ja.yaml
-
-mkdir -p translation/ja/tools
-patch --output=translation/ja/tools/make_spec.lua \
-      --strip=1 \
-      < translation/src/make_spec.lua.ja.patch
-
-cp spec.txt translation/tmp/spec.ja.txt
-(
-    set -eu
-
-    cd translation/ja/
-    lua tools/make_spec.lua \
-        refblock \
-        < ../../spec.txt \
-        >> ../tmp/spec.ja.txt
-)
-
-msgcat --use-first \
-       --output-file=translation/po/ja.po \
-       translation/po.refs/ja.po \
-       translation/po/ja.po
 [ -f translation/po/en.pot ] || touch translation/po/en.pot
+
+po4a translation/po4a.refs.cfg
+
+for code in "$@"
+do
+    msgcat --sort-output \
+           --output-file="translation/po.refs/$code.po" \
+           "translation/po.refs/$code.po"
+
+    lua translation/tool/generate_translated_refs.lua \
+        < "translation/tmp/refs.translatable.$code.yaml" \
+        > "translation/tmp/refs.$code.yaml"
+
+    mkdir -p "translation/$code/tools"
+    patch --output="translation/$code/tools/make_spec.lua" \
+          --strip=1 \
+          < "translation/src/make_spec.lua.$code.patch"
+
+    cp spec.txt "translation/tmp/spec.$code.txt"
+    (
+        set -eu
+
+        cd "translation/$code/"
+        lua tools/make_spec.lua \
+            refblock \
+            < ../../spec.txt \
+            >> "../tmp/spec.$code.txt"
+    )
+
+    msgcat --use-first \
+           --output-file="translation/po/$code.po" \
+           "translation/po.refs/$code.po" \
+           "translation/po/$code.po"
+done
+
 po4a translation/po4a.cfg
 
-cp Makefile translation/ja/Makefile
+for code in "$@"
+do
+    cp Makefile "translation/$code/Makefile"
 
-make --directory translation/ja \
-     spec.html
+    make --directory "translation/$code" \
+         spec.html
+done
