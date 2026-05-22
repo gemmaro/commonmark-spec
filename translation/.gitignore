@@ -5,7 +5,6 @@
 /ja/tools/
 /po/*.pot
 /refs.ja.yaml
-/refs.translatable.ja.yaml
 /spec.txt
 /tmp/
 /po.refs/en.pot
