@@ -10,7 +10,7 @@ index 1ff19d9..865a845 100644
  local format = arg[1] or 'html'
  
 +local jarefs = {}
-+local jarefs_file = io.open("../refs.ja.yaml", "r")
++local jarefs_file = io.open("../tmp/refs.ja.yaml", "r")
 +if jarefs_file then
 +   jarefs = lyaml.load(jarefs_file:read("a"))
 +   jarefs_file:close()

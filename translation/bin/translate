@@ -31,7 +31,7 @@ msgcat --sort-output \
 
 lua translation/tool/generate_translated_refs.lua \
     < translation/tmp/refs.translatable.ja.yaml \
-    > translation/refs.ja.yaml
+    > translation/tmp/refs.ja.yaml
 
 cp spec.txt translation/spec.txt
 (
