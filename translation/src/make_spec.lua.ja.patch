@@ -9,11 +9,11 @@ index 1ff19d9..865a845 100644
  
  local format = arg[1] or 'html'
  
-+local jarefs = {}
-+local jarefs_file = io.open("../../tmp/refs.ja.yaml", "r")
-+if jarefs_file then
-+   jarefs = lyaml.load(jarefs_file:read("a"))
-+   jarefs_file:close()
++local translated_refs = {}
++local translated_refs_file = io.open("../../tmp/refs.ja.yaml", "r")
++if translated_refs_file then
++   translated_refs = lyaml.load(translated_refs_file:read("a"))
++   translated_refs_file:close()
 +else
 +   error("unreachable")
 +end
@@ -27,7 +27,7 @@ index 1ff19d9..865a845 100644
  local to_identifier = function(s)
 -  return trim(s):lower():gsub('[^%w]+', ' '):gsub('[%s]+', '-')
 +   s = trim(s)
-+   id = jarefs[s]
++   id = translated_refs[s]
 +   if id then
 +      return id
 +   end
