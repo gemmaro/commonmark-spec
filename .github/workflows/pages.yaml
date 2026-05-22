@@ -55,7 +55,10 @@ jobs:
               esac
               mv "translation/build/$code/spec.html" \
                  "tmp-for-github-pages/spec.$code.html"
+              mv "translation/tmp/readme.$code.html" \
+                 "tmp-for-github-pages/readme.$code.html"
           done < translation/LINGUAS
+          mv translation/tmp/index.html tmp-for-github-pages/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

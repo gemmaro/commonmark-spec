@@ -72,3 +72,5 @@ do
     make --directory "translation/build/$code" \
          spec.html
 done
+
+lua translation/tool/generate_webpages.lua
