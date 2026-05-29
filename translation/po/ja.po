@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: commonmark-ja\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-05-22 21:51+0900\n"
-"PO-Revision-Date: 2026-05-22 19:36+0900\n"
+"PO-Revision-Date: 2026-05-29 11:42+0900\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -5632,7 +5632,7 @@ msgstr "元来のマークダウンとの違い"
 #: README.md:107
 #, no-wrap
 msgid "There are only a few places where this spec says things that contradict the canonical syntax description:"
-msgstr "本仕様で正典的な構文の説明と矛盾することを述べているところはごく二三あります。"
+msgstr "本仕様で正典的な構文の説明と矛盾することを述べているところがごく数点あります。"
 
 #. type: bullet list / item / paragraph
 #: README.md:110
