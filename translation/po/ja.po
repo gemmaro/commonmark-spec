@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: commonmark-ja\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-10-30 13:38+0900\n"
-"PO-Revision-Date: 2026-05-22 19:36+0900\n"
+"PO-Revision-Date: 2026-10-30 13:57+0900\n"
 "Last-Translator: gemmaro <gemmaro.dev@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -379,7 +379,7 @@ msgstr ""
 #, no-wrap
 msgid "A byte order mark (`U+FEFF`) at the very start of the document is ignored. Anywhere else, `U+FEFF` is an ordinary character."
 msgstr ""
-"文書のごく初めのバイト順の印 (`U+FEFF`) は無視されます。\n"
+"文書のごく初めのバイト順マーク (`U+FEFF`) は無視されます。\n"
 "それ以外ではどこであれ、 `U+FEFF` はありきたりな文字です。"
 
 #. type: paragraph
