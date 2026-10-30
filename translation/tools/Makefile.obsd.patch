@@ -1,0 +1,21 @@
+diff --git a/Makefile b/Makefile
+index c37182e..49b0483 100644
+--- a/Makefile
++++ b/Makefile
+@@ -6,13 +6,13 @@ SPECVERSION=$(shell perl -ne 'print $$1 if /^version: *([0-9.]+)/' spec.txt)
+ all: spec.html # spec.pdf spec.md
+ 
+ spec.md: spec.txt tools/template.commonmark
+-	lua tools/make_spec.lua commonmark < $< > $@
++	lua54 tools/make_spec.lua commonmark < $< > $@
+ 
+ spec.html: spec.txt tools/template.html
+-	lua tools/make_spec.lua html < $< > $@
++	lua54 tools/make_spec.lua html < $< > $@
+ 
+ spec.tex: spec.txt tools/template.latex
+-	lua tools/make_spec.lua latex < $< > $@
++	lua54 tools/make_spec.lua latex < $< > $@
+ 
+ spec.pdf: spec.tex
+ 	xelatex $<

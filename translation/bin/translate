@@ -1,6 +1,9 @@
 #!/bin/sh
 set -eu
 
+: "${LUA:=lua}"
+: "${MAKE:=make}"
+
 while IFS= read -r code
 do
     case $code in
@@ -17,12 +20,12 @@ patch --output=translation/tmp/make_spec.add_refblock.lua \
       --strip=1 \
       < translation/tools/make_spec.lua.add_refblock.patch
 
-lua translation/tmp/make_spec.add_refyaml.lua \
+$LUA translation/tmp/make_spec.add_refyaml.lua \
     refyaml \
     < spec.txt \
     > translation/tmp/refs.yaml
 
-lua translation/tools/generate_translatable_refs.lua \
+$LUA translation/tools/generate_translatable_refs.lua \
     < translation/tmp/refs.yaml \
     > translation/tmp/refs.translatable.yaml
 
@@ -37,7 +40,7 @@ do
            --output-file="translation/po.refs/$code.po" \
            "translation/po.refs/$code.po"
 
-    lua translation/tools/generate_translated_refs.lua \
+    $LUA translation/tools/generate_translated_refs.lua \
         < "translation/tmp/refs.translatable.$code.yaml" \
         > "translation/tmp/refs.$code.yaml"
 
@@ -51,7 +54,7 @@ do
         set -eu
 
         cd "translation/build/$code/"
-        lua ../../tmp/make_spec.add_refblock.lua \
+        $LUA ../../tmp/make_spec.add_refblock.lua \
             refblock \
             < ../../../spec.txt \
             >> "../../tmp/spec.$code.txt"
@@ -67,10 +70,17 @@ po4a translation/po4a.cfg
 
 for code in "$@"
 do
-    cp Makefile "translation/build/$code/Makefile"
+    if [ "$USE_OPENBSD" = yes ]
+    then
+        patch --output="translation/build/$code/Makefile" \
+              --strip=1 \
+              < translation/tools/Makefile.obsd.patch
+    else
+        cp Makefile "translation/build/$code/Makefile"
+    fi
 
-    make --directory "translation/build/$code" \
+    $MAKE --directory "translation/build/$code" \
          spec.html
 done
 
-lua translation/tools/generate_webpages.lua
+$LUA translation/tools/generate_webpages.lua
