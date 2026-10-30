@@ -3,6 +3,7 @@ set -eu
 
 : "${LUA:=lua}"
 : "${MAKE:=make}"
+: "${USE_OPENBSD:=no}"
 
 while IFS= read -r code
 do
