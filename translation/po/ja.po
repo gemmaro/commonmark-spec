@@ -379,6 +379,8 @@ msgstr ""
 #, no-wrap
 msgid "A byte order mark (`U+FEFF`) at the very start of the document is ignored. Anywhere else, `U+FEFF` is an ordinary character."
 msgstr ""
+"文書のごく初めのバイト順の印 (`U+FEFF`) は無視されます。\n"
+"それ以外ではどこであれ、 `U+FEFF` はありきたりな文字です。"
 
 #. type: paragraph
 #: translation/tmp/spec.ja.txt:301
